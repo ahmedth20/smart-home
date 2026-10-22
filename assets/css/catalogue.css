@@ -37,3 +37,18 @@
 }
 @media(max-width:1050px){.hero-caption{flex-wrap:wrap}.hero-brand-logo{max-width:100%}.hero-caption strong{font-size:.85rem}}
 @media(min-width:761px) and (max-width:900px){.hero-layout,.about-layout{grid-template-columns:1fr}.hero-visual,.hero-visual>img{height:420px;min-height:420px}.hero-copy{max-width:640px}}
+/* Accents bleus inspirés du logo : collection client. */
+:root{--blue:#2458c4;--blue-dark:#19449d;--cyan:#326bd7;--brand-blue-soft:#edf3ff;--brand-blue-border:#d6e2fa}
+body{background:#fbfcff}
+.smart-hero{background:radial-gradient(ellipse at 92% 12%,#dce8ff 0,transparent 52%),linear-gradient(125deg,#f5f8ff,#edf3ff)}
+.hero-copy h1 span,.eyebrow,.hero-facts strong{color:var(--blue)}
+.hero-facts{border-color:#cddcf5}.hero-secondary{color:var(--blue-dark);border-color:#a9c0ed}.hero-caption{border-bottom:3px solid var(--blue)}
+.btn--primary{background:var(--blue);box-shadow:0 5px 14px #2458c426}.btn--primary:hover{background:var(--blue-dark)}
+.header-catalogue,.nav__link.active{color:var(--blue);background:var(--brand-blue-soft)}.nav__link:hover{color:var(--blue);background:#edf3ff}
+.family-card{border-color:var(--brand-blue-border);border-top:3px solid #9ab8f1}.family-icon{background:#e6efff;color:var(--blue)}.family-arrow{color:var(--blue)}.family-card:hover{border-color:var(--blue);box-shadow:0 8px 28px #2458c415}
+.selection-section{background:#eff4fd}.text-link,.detail-button,.product-card__brand{color:var(--blue)}.product-card{border-color:#dfe7f6}.product-card:hover{border-color:#91b0eb}.capacity-pill,.detail-tags span{color:var(--blue-dark);background:#eaf1ff}.detail-button{border-top-color:#e0e9fa}
+.catalogue-intro{background:linear-gradient(115deg,#f0f5ff,#dfebff)}.catalogue-intro h1{color:#183e83}.catalogue-tools{border-color:var(--brand-blue-border)}.filter-tab.active{background:var(--blue);border-color:var(--blue)}.filter-tab:hover:not(.active){color:var(--blue);background:#edf3ff;border-color:#aec6f2}.search-field{background:#f5f8ff;border-color:var(--brand-blue-border)}.search-field:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px #2458c414}.group-number{color:#7197dd}.detail-content{background:#f5f8ff}.dialog-close{background:#eaf1ff;color:var(--blue-dark)}
+.home-callout{background:linear-gradient(115deg,#2458c4,#19449d);color:#fff}.home-callout h2,.home-callout .eyebrow{color:#fff}.home-callout p:not(.eyebrow){color:#e3ecff}.home-callout .btn--primary{color:#19449d;background:#fff;box-shadow:0 5px 15px #102b6526}.home-callout .btn--primary:hover{background:#eaf1ff}
+.contact-panel{border-color:var(--brand-blue-border)}.contact-panel .contact-pending{background:#edf3ff}.contact-panel textarea{border-color:#cddcf5}
+.footer{background:#204e70}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#5282e4}
