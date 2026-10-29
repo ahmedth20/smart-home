@@ -47,9 +47,30 @@ if(search){
 }
 const request=document.getElementById('request-text');
 if(request){
+ const companyEmail='info@smarthome.com.tn';
+ const form=document.getElementById('contact-email-form');
+ const subject=document.getElementById('contact-subject');
  const id=new URLSearchParams(location.search).get('produit'),p=byId.get(id);
- if(p){document.getElementById('contact-product').textContent=p.type+' — '+p.model+' · '+p.capacityLabel+' · '+p.color;request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n'+(p.note?'Merci également de confirmer les caractéristiques de cette fiche.\n':'')+'\nMerci.'}
- document.getElementById('copy-request').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(request.value);document.getElementById('copy-status').textContent='Votre demande a été copiée.'}catch{request.focus();request.select();document.getElementById('copy-status').textContent='Sélection prête : utilisez Ctrl+C pour copier votre demande.'}});
+ if(p){
+  document.getElementById('contact-product').textContent=p.type+' — '+p.model+' · '+p.capacityLabel+' · '+p.color;
+  subject.value='Prix et disponibilité — '+p.model;
+  request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n'+(p.note?'Merci également de confirmer les caractéristiques de cette fiche.\n':'')+'\nQuantité souhaitée : 1\n\nMerci.';
+ }
+ function messageBody(){
+  const name=document.getElementById('contact-name').value.trim();
+  const email=document.getElementById('contact-email').value.trim();
+  return request.value.trim()+(name||email?'\n\n'+[name,email].filter(Boolean).join('\n'):'');
+ }
+ form.addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!form.reportValidity())return;
+  const url='mailto:'+companyEmail+'?subject='+encodeURIComponent(subject.value.trim())+'&body='+encodeURIComponent(messageBody());
+  document.getElementById('email-status').textContent='Si votre application e-mail ne s’ouvre pas, copiez votre demande et envoyez-la à '+companyEmail+'.';
+  window.location.href=url;
+ });
+ document.getElementById('copy-request').addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText('À : '+companyEmail+'\nObjet : '+subject.value.trim()+'\n\n'+messageBody());document.getElementById('copy-status').textContent='Votre demande a été copiée. Collez-la dans un e-mail destiné à '+companyEmail+'.'}
+  catch{request.focus();request.select();document.getElementById('copy-status').textContent='Sélectionnez puis copiez le message pour l’envoyer à '+companyEmail+'.'}
+ });
 }
-
 })();
