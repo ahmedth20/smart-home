@@ -52,3 +52,5 @@ body{background:#fbfcff}
 .contact-panel{border-color:var(--brand-blue-border)}.contact-panel .contact-pending{background:#edf3ff}.contact-panel textarea{border-color:#cddcf5}
 .footer{background:#204e70}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#5282e4}
+/* Flèches vectorielles : rendu identique sur iOS, Android et ordinateur. */
+.ui-arrow{display:inline-block;width:18px;height:18px;min-width:18px;flex-shrink:0;vertical-align:middle;pointer-events:none}.family-arrow{display:flex;align-items:center;justify-content:center}.family-arrow .ui-arrow{width:20px;height:20px}.text-link{display:inline-flex;align-items:center;gap:8px}.detail-button>span{display:flex;align-items:center}.header-catalogue>span{display:inline-flex;vertical-align:middle}
