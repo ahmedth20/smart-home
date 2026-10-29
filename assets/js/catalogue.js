@@ -16,7 +16,6 @@ function openDetail(id,trigger){
  [p.capacityLabel,p.color].forEach(t=>{const span=document.createElement('span');span.textContent=t;tags.append(span)});
  document.getElementById('detail-description').textContent=p.description;
  const note=document.getElementById('detail-note');note.textContent=p.note;note.hidden=!p.note;
- document.getElementById('detail-source').textContent='Catalogue SMART HOME GROUP 2026 · page '+p.sourcePage;
  document.getElementById('detail-contact').href='contact.html?produit='+encodeURIComponent(p.id);
  dialog.showModal();document.body.style.overflow='hidden';
 }
@@ -73,13 +72,13 @@ if(request){
    const data=await response.json();
    if(!response.ok||(data.success!==true&&data.success!=='true'))throw new Error('Service unavailable');
    if(/activat|confirm.*email/i.test(data.message||'')){
-    status.textContent='La réception des messages est en cours d’activation par SMART HOME GROUP. Votre demande a été transmise au service.';status.dataset.state='pending';
+    status.textContent='Votre demande n’a pas encore pu être confirmée. Contactez-nous à info@smarthome.com.tn.';status.dataset.state='pending';
    }else{
     status.textContent='Votre demande a été transmise. Merci ! Notre équipe vous répondra par e-mail.';status.dataset.state='success';
     form.reset();
     if(p){subject.value='Prix et disponibilité — '+p.model;request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n\nQuantité souhaitée : 1\n\nMerci.';}
    }
-  }catch(error){status.textContent=error.name==='AbortError'?'La confirmation de l’envoi n’a pas pu être reçue. Votre message est conservé ; réessayez dans un instant.':'L’envoi n’a pas abouti. Votre message est conservé. Réessayez dans un instant ou contactez info@smarthome.com.tn.';status.dataset.state='error';}
+  }catch(error){status.textContent=error.name==='AbortError'?'L’envoi n’a pas pu être confirmé. Réessayez dans un instant. Votre message a été conservé.':'L’envoi n’a pas abouti. Votre message est conservé. Réessayez dans un instant ou contactez info@smarthome.com.tn.';status.dataset.state='error';}
   finally{clearTimeout(timer);button.disabled=false;button.textContent='Envoyer';form.removeAttribute('aria-busy');}
  });
 }
