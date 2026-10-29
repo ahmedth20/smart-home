@@ -24,7 +24,7 @@ Ouvrir http://127.0.0.1:8000/.
 
 Les photos, noms et descriptions proviennent du catalogue SMART HOME GROUP (V4). Les informations contradictoires des fiches des pages 3 et 5 et les volumes à confirmer de la page 10 sont signalés dans les détails.
 
-Les prix ne sont pas fournis. La page Contact utilise info@smarthome.com.tn : elle ouvre la messagerie du visiteur avec un objet et un message préremplis. Le visiteur confirme lui-même l’envoi dans sa messagerie. Une copie de la demande reste disponible.
+Les prix ne sont pas fournis. La page Contact transmet directement les demandes à info@smarthome.com.tn via FormSubmit (AJAX). Le destinataire doit activer la réception via le lien de confirmation FormSubmit avant de recevoir les demandes. Aucun secret n’est stocké dans le site. Les données transitent par FormSubmit. Les messages restent dans le formulaire en cas d’erreur.
 
 La recherche gère les accents, les filtres combinent famille et marque, et le tri s’applique au sein de chaque famille. Les fiches détaillées s’ouvrent au clic et se ferment avec Échap.
 

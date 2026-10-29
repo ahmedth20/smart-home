@@ -56,21 +56,31 @@ if(request){
   subject.value='Prix et disponibilité — '+p.model;
   request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n'+(p.note?'Merci également de confirmer les caractéristiques de cette fiche.\n':'')+'\nQuantité souhaitée : 1\n\nMerci.';
  }
- function messageBody(){
-  const name=document.getElementById('contact-name').value.trim();
-  const email=document.getElementById('contact-email').value.trim();
-  return request.value.trim()+(name||email?'\n\n'+[name,email].filter(Boolean).join('\n'):'');
- }
- form.addEventListener('submit',event=>{
+ const button=document.getElementById('send-request');
+ const status=document.getElementById('email-status');
+ form.addEventListener('submit',async event=>{
   event.preventDefault();
-  if(!form.reportValidity())return;
-  const url='mailto:'+companyEmail+'?subject='+encodeURIComponent(subject.value.trim())+'&body='+encodeURIComponent(messageBody());
-  document.getElementById('email-status').textContent='Si votre application e-mail ne s’ouvre pas, copiez votre demande et envoyez-la à '+companyEmail+'.';
-  window.location.href=url;
- });
- document.getElementById('copy-request').addEventListener('click',async()=>{
-  try{await navigator.clipboard.writeText('À : '+companyEmail+'\nObjet : '+subject.value.trim()+'\n\n'+messageBody());document.getElementById('copy-status').textContent='Votre demande a été copiée. Collez-la dans un e-mail destiné à '+companyEmail+'.'}
-  catch{request.focus();request.select();document.getElementById('copy-status').textContent='Sélectionnez puis copiez le message pour l’envoyer à '+companyEmail+'.'}
+  if(!form.reportValidity()||button.disabled)return;
+  if(form.elements.namedItem('_honey').value)return;
+  const payload={nom:document.getElementById('contact-name').value.trim(),email:document.getElementById('contact-email').value.trim(),objet:subject.value.trim(),message:request.value.trim(),_subject:'SMART HOME — '+subject.value.trim(),_template:'table',_captcha:'false',_honey:'',_url:'https://ahmedth20.github.io/smart-home/contact.html'};
+  if(!payload.nom||!payload.objet||!payload.message){status.textContent='Merci de compléter votre nom, l’objet et votre message.';status.dataset.state='error';return;}
+  if(p)payload.produit=p.type+' — '+p.model+' · '+p.capacityLabel+' · '+p.color;
+  button.disabled=true;button.textContent='Envoi en cours…';form.setAttribute('aria-busy','true');
+  status.textContent='Transmission de votre demande…';status.dataset.state='pending';
+  const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),25000);
+  try{
+   const response=await fetch('https://formsubmit.co/ajax/'+companyEmail,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:controller.signal});
+   const data=await response.json();
+   if(!response.ok||(data.success!==true&&data.success!=='true'))throw new Error('Service unavailable');
+   if(/activat|confirm.*email/i.test(data.message||'')){
+    status.textContent='La réception des messages est en cours d’activation par SMART HOME GROUP. Votre demande a été transmise au service.';status.dataset.state='pending';
+   }else{
+    status.textContent='Votre demande a été transmise. Merci ! Notre équipe vous répondra par e-mail.';status.dataset.state='success';
+    form.reset();
+    if(p){subject.value='Prix et disponibilité — '+p.model;request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n\nQuantité souhaitée : 1\n\nMerci.';}
+   }
+  }catch(error){status.textContent=error.name==='AbortError'?'La confirmation de l’envoi n’a pas pu être reçue. Votre message est conservé ; réessayez dans un instant.':'L’envoi n’a pas abouti. Votre message est conservé. Réessayez dans un instant ou contactez info@smarthome.com.tn.';status.dataset.state='error';}
+  finally{clearTimeout(timer);button.disabled=false;button.textContent='Envoyer';form.removeAttribute('aria-busy');}
  });
 }
 })();
