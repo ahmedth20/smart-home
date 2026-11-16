@@ -6,6 +6,12 @@ const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toL
 const dialog=document.getElementById('product-dialog');
 function setupGallery(frame){
  const track=frame.querySelector('.gallery-track');const slides=[...track.children];
+ let pointerStart=null;
+ track.addEventListener('pointerdown',e=>{pointerStart={x:e.clientX,y:e.clientY};track.dataset.dragging='false';},{passive:true});
+ track.addEventListener('pointermove',e=>{if(pointerStart&&Math.hypot(e.clientX-pointerStart.x,e.clientY-pointerStart.y)>8)track.dataset.dragging='true';},{passive:true});
+ track.addEventListener('pointerup',()=>{pointerStart=null;},{passive:true});
+ track.addEventListener('pointercancel',()=>{pointerStart=null;track.dataset.dragging='true';},{passive:true});
+ track.querySelectorAll('img').forEach(img=>img.draggable=false);
  const prev=frame.querySelector('[data-gallery-prev]'),next=frame.querySelector('[data-gallery-next]');
  function index(){return Math.round(track.scrollLeft/(track.clientWidth||1));}
  function update(){const i=index();frame.querySelector('.gallery-position').textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i>=slides.length-1;}
@@ -37,7 +43,7 @@ function openDetail(id,trigger){
  document.getElementById('detail-contact').href='contact.html?produit='+encodeURIComponent(p.id);
  dialog.showModal();document.body.style.overflow='hidden';
 }
-document.querySelectorAll('[data-detail]').forEach(button=>button.addEventListener('click',()=>openDetail(button.dataset.detail,button)));
+document.querySelectorAll('[data-detail]').forEach(button=>button.addEventListener('click',event=>{if(event.detail!==0&&button.closest('.gallery-track')?.dataset.dragging==='true')return;openDetail(button.dataset.detail,button);}));
 if(dialog){
  dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});

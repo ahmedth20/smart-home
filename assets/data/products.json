@@ -294,7 +294,15 @@
     "sourcePage": 8,
     "note": "",
     "capacityLabel": "40 L",
-    "subcategory": ""
+    "subcategory": "",
+    "images": [
+      "assets/img/catalogue/produit-19.webp",
+      "assets/img/catalogue/fresh-fr-tu40-blanc-transparent.png"
+    ],
+    "imageAlts": [
+      "Fresh Turbo FR-TU40 — vue noire",
+      "Fresh Turbo FR-TU40 — vue blanche"
+    ]
   },
   {
     "id": "produit-20",
