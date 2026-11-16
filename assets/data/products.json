@@ -269,7 +269,15 @@
     "sourcePage": 8,
     "note": "",
     "capacityLabel": "25 L",
-    "subcategory": ""
+    "subcategory": "",
+    "images": [
+      "assets/img/catalogue/produit-18.webp",
+      "assets/img/catalogue/fresh-fr-tu25-noir-transparent.png"
+    ],
+    "imageAlts": [
+      "Fresh Turbo FR-TU25 — vue blanche",
+      "Fresh Turbo FR-TU25 — vue noire et dorée avec télécommande"
+    ]
   },
   {
     "id": "produit-19",

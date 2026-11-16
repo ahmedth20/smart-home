@@ -16,7 +16,7 @@ function setupGallery(frame){
 function createGallery(p){
  const frame=document.createElement('div');frame.className='gallery-frame detail-gallery';
  frame.innerHTML='<div class="gallery-track" tabindex="0" aria-label="Photos du produit à faire défiler"></div><div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Photo précédente"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 6 9 12l6 6"/></svg></button><span class="gallery-position" aria-live="polite"></span><button type="button" data-gallery-next aria-label="Photo suivante"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button></div>';
- p.images.forEach((src,i)=>{const slide=document.createElement('div');slide.className='gallery-slide';const image=document.createElement('img');image.src=src;image.alt=p.model+' — '+(i===0?'vue extérieure':'vue intérieure');slide.append(image);frame.querySelector('.gallery-track').append(slide);});setupGallery(frame);return frame;
+ p.images.forEach((src,i)=>{const slide=document.createElement('div');slide.className='gallery-slide';const image=document.createElement('img');image.src=src;image.alt=p.imageAlts?.[i]||p.model+' — '+(i===0?'vue extérieure':'vue intérieure');slide.append(image);frame.querySelector('.gallery-track').append(slide);});setupGallery(frame);return frame;
 }
 document.querySelectorAll('[data-gallery]').forEach(setupGallery);
 let lastTrigger=null;
