@@ -4,6 +4,21 @@ const products=window.SMART_PRODUCTS||[];
 const byId=new Map(products.map(p=>[p.id,p]));
 const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const dialog=document.getElementById('product-dialog');
+function setupGallery(frame){
+ const track=frame.querySelector('.gallery-track');const slides=[...track.children];
+ const prev=frame.querySelector('[data-gallery-prev]'),next=frame.querySelector('[data-gallery-next]');
+ function index(){return Math.round(track.scrollLeft/(track.clientWidth||1));}
+ function update(){const i=index();frame.querySelector('.gallery-position').textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i>=slides.length-1;}
+ function move(delta){track.scrollTo({left:Math.max(0,Math.min(slides.length-1,index()+delta))*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+ prev.addEventListener('click',()=>move(-1));next.addEventListener('click',()=>move(1));track.addEventListener('scroll',update,{passive:true});
+ track.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();move(e.key==='ArrowRight'?1:-1);}});update();
+}
+function createGallery(p){
+ const frame=document.createElement('div');frame.className='gallery-frame detail-gallery';
+ frame.innerHTML='<div class="gallery-track" tabindex="0" aria-label="Photos du produit à faire défiler"></div><div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Photo précédente"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 6 9 12l6 6"/></svg></button><span class="gallery-position" aria-live="polite"></span><button type="button" data-gallery-next aria-label="Photo suivante"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button></div>';
+ p.images.forEach((src,i)=>{const slide=document.createElement('div');slide.className='gallery-slide';const image=document.createElement('img');image.src=src;image.alt=p.model+' — '+(i===0?'vue extérieure':'vue intérieure');slide.append(image);frame.querySelector('.gallery-track').append(slide);});setupGallery(frame);return frame;
+}
+document.querySelectorAll('[data-gallery]').forEach(setupGallery);
 let lastTrigger=null;
 function openDetail(id,trigger){
  const p=byId.get(id);if(!p||!dialog)return;
@@ -11,7 +26,10 @@ function openDetail(id,trigger){
  document.getElementById('detail-title').textContent=p.model;
  document.getElementById('detail-brand').textContent=p.brand+' · SMART HOME GROUP';
  document.getElementById('detail-type').textContent=p.type;
- const image=document.getElementById('detail-image');image.src=p.image;image.alt=p.name;
+ const visual=document.querySelector('.detail-visual');visual.replaceChildren();
+ if(p.images&&p.images.length>1){visual.append(createGallery(p));}
+ else{const image=document.createElement('img');image.id='detail-image';image.src=p.image;image.alt=p.name;visual.append(image);}
+
  const tags=document.getElementById('detail-tags');tags.replaceChildren();
  [p.capacityLabel,p.color].forEach(t=>{const span=document.createElement('span');span.textContent=t;tags.append(span)});
  document.getElementById('detail-description').textContent=p.description;
