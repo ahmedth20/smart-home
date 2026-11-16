@@ -14,7 +14,7 @@ Ouvrir http://127.0.0.1:8000/.
 
 ## Catalogue
 
-26 fiches issues du catalogue fourni : 12 lave-linge, 3 réfrigérateurs, 5 congélateurs, 2 fontaines à eau et 4 rafraîchisseurs d’air.
+24 fiches issues du catalogue fourni : 12 lave-linge, 3 réfrigérateurs, 3 congélateurs, 2 fontaines à eau et 4 rafraîchisseurs d’air.
 
 - `assets/data/products.json` : données des produits et pages sources du PDF.
 - `assets/img/catalogue/` : photos originales extraites du catalogue, en WebP.
@@ -29,3 +29,5 @@ Les prix ne sont pas fournis. La page Contact transmet directement les demandes 
 La recherche gère les accents, les filtres combinent famille et marque, et le tri s’applique au sein de chaque famille. Les fiches détaillées s’ouvrent au clic et se ferment avec Échap.
 
 Les polices et les icônes sont chargées depuis Google Fonts et Font Awesome ; le site reste utilisable avec les polices de secours.
+
+Photos améliorées : assets/img/catalogue/produit-{01,02,06,08,22}-hd.png. Restauration via ImageGen intégré : amélioration de netteté et réduction de pixellisation, en conservant les appareils et leur angle de vue.

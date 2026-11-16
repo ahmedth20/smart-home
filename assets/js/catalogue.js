@@ -65,7 +65,7 @@ if(search){
    const visible=group.querySelectorAll('.product-card:not([hidden])').length;
    group.hidden=!visible;group.querySelector('.group-count').textContent=visible+' modèle'+(visible>1?'s':'');
   });
-  document.getElementById('result-count').textContent=count+' produit'+(count>1?'s':'')+' affiché'+(count>1?'s':'')+' sur 26';
+  document.getElementById('result-count').textContent=count+' produit'+(count>1?'s':'')+' affiché'+(count>1?'s':'')+' sur '+products.length;
   document.getElementById('empty-state').hidden=count!==0;
  }
  tabs.forEach(tab=>tab.addEventListener('click',()=>{category=tab.dataset.filter;const url=new URL(location.href);if(category==='all')url.searchParams.delete('categorie');else url.searchParams.set('categorie',category);history.replaceState(null,'',url);apply()}));
