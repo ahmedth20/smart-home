@@ -384,14 +384,14 @@
     "color": "Blanc",
     "brand": "Géant",
     "description": "Type Double porte - Type de pose Pose Libre- Système de refroidissement - DEFROST - Volume brut - 435 Litres - Volume net - 295 Litres - Couleur Blanc",
-    "image": "assets/img/catalogue/geant-bcd435-ferme.jpg",
+    "image": "assets/img/catalogue/geant-bcd435-ferme-transparent.png",
     "sourcePage": 10,
     "note": "",
     "capacityLabel": "295 L nets",
     "subcategory": "",
     "images": [
-      "assets/img/catalogue/geant-bcd435-ferme.jpg",
-      "assets/img/catalogue/geant-bcd435-ouvert.jpg"
+      "assets/img/catalogue/geant-bcd435-ferme-transparent.png",
+      "assets/img/catalogue/geant-bcd435-ouvert-transparent.png"
     ]
   },
   {
