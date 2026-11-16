@@ -79,3 +79,7 @@ button.gallery-slide{cursor:pointer;background:transparent;border:0;border-radiu
 @media(min-width:761px) and (max-width:900px){.hero-video{height:420px}}
 @media(max-width:760px){.hero-video{height:340px}.hero-video-toggle{top:12px;right:12px}}
 @media(max-width:540px){.hero-video{height:300px}}
+/* Signature de marque sous la vidéo : aucune superposition sur l’animation. */
+.hero-video-visual{height:auto;min-height:0}.hero-video-visual .hero-caption{position:static;inset:auto;margin:0;padding:14px 20px;min-height:70px;border-radius:0;border-bottom:0;border-top:1px solid #dce6f6;background:#fff;backdrop-filter:none;flex-wrap:nowrap;gap:18px}.hero-video-visual .hero-brand-logo{width:158px;max-width:46%;height:auto}.hero-video-visual .hero-caption strong{font-size:.85rem;line-height:1.45;flex-shrink:1}
+@media(max-width:540px){.hero-video-visual .hero-caption{padding:12px 14px;min-height:64px;gap:14px}.hero-video-visual .hero-brand-logo{width:140px}.hero-video-visual .hero-caption strong{font-size:.74rem}}
+@media(max-width:360px){.hero-video-visual .hero-brand-logo{width:120px}.hero-video-visual .hero-caption strong{font-size:.68rem}}
