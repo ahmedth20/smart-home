@@ -13,7 +13,8 @@
     "image": "assets/img/catalogue/produit-01.webp",
     "sourcePage": 2,
     "note": "",
-    "capacityLabel": "4 kg"
+    "capacityLabel": "4 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-02",
@@ -29,7 +30,8 @@
     "image": "assets/img/catalogue/produit-02.webp",
     "sourcePage": 2,
     "note": "",
-    "capacityLabel": "5 kg"
+    "capacityLabel": "5 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-03",
@@ -45,7 +47,8 @@
     "image": "assets/img/catalogue/produit-03.webp",
     "sourcePage": 2,
     "note": "",
-    "capacityLabel": "11 kg"
+    "capacityLabel": "11 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-04",
@@ -61,7 +64,8 @@
     "image": "assets/img/catalogue/produit-04.webp",
     "sourcePage": 3,
     "note": "",
-    "capacityLabel": "9 kg"
+    "capacityLabel": "9 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-05",
@@ -77,7 +81,8 @@
     "image": "assets/img/catalogue/produit-05.webp",
     "sourcePage": 3,
     "note": "La fiche est titrée « Fresh FR5000 5 kg », mais sa description indique 11 kg de lavage et 8 kg d’essorage. La référence et la capacité restent à confirmer.",
-    "capacityLabel": "Capacité à confirmer"
+    "capacityLabel": "Capacité à confirmer",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-06",
@@ -93,7 +98,8 @@
     "image": "assets/img/catalogue/produit-06.webp",
     "sourcePage": 3,
     "note": "",
-    "capacityLabel": "13 kg"
+    "capacityLabel": "13 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-07",
@@ -109,7 +115,8 @@
     "image": "assets/img/catalogue/produit-07.webp",
     "sourcePage": 4,
     "note": "",
-    "capacityLabel": "15 kg"
+    "capacityLabel": "15 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-08",
@@ -125,7 +132,8 @@
     "image": "assets/img/catalogue/produit-08.webp",
     "sourcePage": 4,
     "note": "",
-    "capacityLabel": "9 kg"
+    "capacityLabel": "9 kg",
+    "subcategory": "top"
   },
   {
     "id": "produit-09",
@@ -141,7 +149,8 @@
     "image": "assets/img/catalogue/produit-09.webp",
     "sourcePage": 4,
     "note": "",
-    "capacityLabel": "12 kg"
+    "capacityLabel": "12 kg",
+    "subcategory": "top"
   },
   {
     "id": "produit-10",
@@ -157,7 +166,8 @@
     "image": "assets/img/catalogue/produit-10.webp",
     "sourcePage": 5,
     "note": "",
-    "capacityLabel": "15 kg"
+    "capacityLabel": "15 kg",
+    "subcategory": "top"
   },
   {
     "id": "produit-11",
@@ -173,7 +183,8 @@
     "image": "assets/img/catalogue/produit-11.webp",
     "sourcePage": 5,
     "note": "Le titre indique FDF480 / 480 L, tandis que la description annonce 400 L bruts et 403 L nets. Volumes et dimensions à confirmer avant commande.",
-    "capacityLabel": "Volume à confirmer"
+    "capacityLabel": "Volume à confirmer",
+    "subcategory": ""
   },
   {
     "id": "produit-12",
@@ -189,7 +200,8 @@
     "image": "assets/img/catalogue/produit-12.webp",
     "sourcePage": 6,
     "note": "",
-    "capacityLabel": "220 L"
+    "capacityLabel": "220 L",
+    "subcategory": ""
   },
   {
     "id": "produit-13",
@@ -205,7 +217,8 @@
     "image": "assets/img/catalogue/produit-13.webp",
     "sourcePage": 6,
     "note": "",
-    "capacityLabel": "270 L"
+    "capacityLabel": "270 L",
+    "subcategory": ""
   },
   {
     "id": "produit-14",
@@ -221,7 +234,8 @@
     "image": "assets/img/catalogue/produit-14.webp",
     "sourcePage": 6,
     "note": "",
-    "capacityLabel": "330 L"
+    "capacityLabel": "330 L",
+    "subcategory": ""
   },
   {
     "id": "produit-15",
@@ -237,7 +251,8 @@
     "image": "assets/img/catalogue/produit-15.webp",
     "sourcePage": 7,
     "note": "",
-    "capacityLabel": "400 L"
+    "capacityLabel": "400 L",
+    "subcategory": ""
   },
   {
     "id": "produit-16",
@@ -253,7 +268,8 @@
     "image": "assets/img/catalogue/produit-16.webp",
     "sourcePage": 7,
     "note": "",
-    "capacityLabel": "20 L"
+    "capacityLabel": "20 L",
+    "subcategory": ""
   },
   {
     "id": "produit-17",
@@ -269,7 +285,8 @@
     "image": "assets/img/catalogue/produit-17.webp",
     "sourcePage": 7,
     "note": "",
-    "capacityLabel": "20 L"
+    "capacityLabel": "20 L",
+    "subcategory": ""
   },
   {
     "id": "produit-18",
@@ -285,7 +302,8 @@
     "image": "assets/img/catalogue/produit-18.webp",
     "sourcePage": 8,
     "note": "",
-    "capacityLabel": "25 L"
+    "capacityLabel": "25 L",
+    "subcategory": ""
   },
   {
     "id": "produit-19",
@@ -301,7 +319,8 @@
     "image": "assets/img/catalogue/produit-19.webp",
     "sourcePage": 8,
     "note": "",
-    "capacityLabel": "40 L"
+    "capacityLabel": "40 L",
+    "subcategory": ""
   },
   {
     "id": "produit-20",
@@ -317,7 +336,8 @@
     "image": "assets/img/catalogue/produit-20.webp",
     "sourcePage": 8,
     "note": "",
-    "capacityLabel": "60 L"
+    "capacityLabel": "60 L",
+    "subcategory": ""
   },
   {
     "id": "produit-21",
@@ -333,7 +353,8 @@
     "image": "assets/img/catalogue/produit-21.webp",
     "sourcePage": 9,
     "note": "",
-    "capacityLabel": "80 L"
+    "capacityLabel": "80 L",
+    "subcategory": ""
   },
   {
     "id": "produit-22",
@@ -349,7 +370,8 @@
     "image": "assets/img/catalogue/produit-22.webp",
     "sourcePage": 10,
     "note": "La fiche indique 302 L nets et 72 L pour le compartiment congélateur. La répartition des volumes reste à confirmer.",
-    "capacityLabel": "302 L nets"
+    "capacityLabel": "302 L nets",
+    "subcategory": ""
   },
   {
     "id": "produit-23",
@@ -365,7 +387,8 @@
     "image": "assets/img/catalogue/produit-23.webp",
     "sourcePage": 10,
     "note": "",
-    "capacityLabel": "295 L nets"
+    "capacityLabel": "295 L nets",
+    "subcategory": ""
   },
   {
     "id": "produit-24",
@@ -381,7 +404,8 @@
     "image": "assets/img/catalogue/produit-24.webp",
     "sourcePage": 10,
     "note": "",
-    "capacityLabel": "458 L nets"
+    "capacityLabel": "458 L nets",
+    "subcategory": ""
   },
   {
     "id": "produit-25",
@@ -397,7 +421,8 @@
     "image": "assets/img/catalogue/produit-25.webp",
     "sourcePage": 11,
     "note": "",
-    "capacityLabel": "12 kg"
+    "capacityLabel": "12 kg",
+    "subcategory": "semi-automatique"
   },
   {
     "id": "produit-26",
@@ -413,6 +438,7 @@
     "image": "assets/img/catalogue/produit-26.webp",
     "sourcePage": 11,
     "note": "",
-    "capacityLabel": "12 kg"
+    "capacityLabel": "12 kg",
+    "subcategory": "semi-automatique"
   }
 ]

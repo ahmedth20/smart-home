@@ -30,18 +30,22 @@ if(search){
  const tabs=[...document.querySelectorAll('[data-filter]')],cards=[...document.querySelectorAll('.catalogue-group .product-card')];
  const brand=document.getElementById('brand-filter'),sort=document.getElementById('product-sort');
  const param=new URLSearchParams(location.search).get('categorie');
+ const laundryTabs=[...document.querySelectorAll('[data-laundry]')];
+ let laundry='all';
  let category=tabs.some(t=>t.dataset.filter===param)?param:'all';
  function apply(){
   const terms=normalize(search.value).trim().split(/\s+/).filter(Boolean);let count=0;
   tabs.forEach(t=>{const active=t.dataset.filter===category;t.classList.toggle('active',active);t.setAttribute('aria-pressed',String(active))});
-  cards.forEach(card=>{const matches=(category==='all'||card.dataset.category===category)&&(brand.value==='all'||card.dataset.brand===brand.value)&&terms.every(term=>normalize(card.dataset.search).includes(term));card.hidden=!matches;if(matches)count++});
-  document.querySelectorAll('.catalogue-group').forEach(group=>{const list=[...group.querySelectorAll('.product-card')];const visible=list.filter(c=>!c.hidden).length;group.hidden=!visible;group.querySelector('.group-count').textContent=visible+' modèle'+(visible>1?'s':'');list.sort((a,b)=>sort.value==='name'?a.dataset.search.localeCompare(b.dataset.search,'fr'):(Number(a.dataset.capacity)-Number(b.dataset.capacity))*(sort.value==='capacity-desc'?-1:1)).forEach(card=>group.querySelector('.products-grid').append(card))});
+  laundryTabs.forEach(tab=>{const active=tab.dataset.laundry===laundry;tab.classList.toggle('active',active);tab.setAttribute('aria-pressed',String(active))});
+  cards.forEach(card=>{const matches=(card.dataset.category!=='lavage'||laundry==='all'||card.dataset.subcategory===laundry)&&(category==='all'||card.dataset.category===category)&&(brand.value==='all'||card.dataset.brand===brand.value)&&terms.every(term=>normalize(card.dataset.search).includes(term));card.hidden=!matches;if(matches)count++});
+  document.querySelectorAll('.catalogue-group').forEach(group=>{const list=[...group.querySelectorAll('.product-card')];const visible=list.filter(c=>!c.hidden).length;group.hidden=!visible&&!(group.dataset.group==='lavage'&&(category==='all'||category==='lavage'));group.querySelector('.group-count').textContent=visible+' modèle'+(visible>1?'s':'');list.sort((a,b)=>sort.value==='name'?a.dataset.search.localeCompare(b.dataset.search,'fr'):(Number(a.dataset.capacity)-Number(b.dataset.capacity))*(sort.value==='capacity-desc'?-1:1)).forEach(card=>group.querySelector('.products-grid').append(card))});
   document.getElementById('result-count').textContent=count+' produit'+(count>1?'s':'')+' affiché'+(count>1?'s':'')+' sur 26';
   document.getElementById('empty-state').hidden=count!==0;
  }
- tabs.forEach(tab=>tab.addEventListener('click',()=>{category=tab.dataset.filter;const url=new URL(location.href);if(category==='all')url.searchParams.delete('categorie');else url.searchParams.set('categorie',category);history.replaceState(null,'',url);apply()}));
+ tabs.forEach(tab=>tab.addEventListener('click',()=>{category=tab.dataset.filter;laundry='all';const url=new URL(location.href);if(category==='all')url.searchParams.delete('categorie');else url.searchParams.set('categorie',category);history.replaceState(null,'',url);apply()}));
+ laundryTabs.forEach(tab=>tab.addEventListener('click',()=>{laundry=tab.dataset.laundry;apply()}));
  search.addEventListener('input',apply);brand.addEventListener('change',apply);sort.addEventListener('change',apply);
- document.getElementById('reset-filters').addEventListener('click',()=>{category='all';search.value='';brand.value='all';sort.value='capacity';const url=new URL(location.href);url.searchParams.delete('categorie');history.replaceState(null,'',url);apply();search.focus()});apply();
+ document.getElementById('reset-filters').addEventListener('click',()=>{category='all';laundry='all';search.value='';brand.value='all';sort.value='capacity';const url=new URL(location.href);url.searchParams.delete('categorie');history.replaceState(null,'',url);apply();search.focus()});apply();
  const id=location.hash.slice(1);if(byId.has(id))openDetail(id,document.querySelector('[data-detail="'+id+'"]'));
 }
 const request=document.getElementById('request-text');
