@@ -31,3 +31,9 @@ La recherche gère les accents, les filtres combinent famille et marque, et le t
 Les polices et les icônes sont chargées depuis Google Fonts et Font Awesome ; le site reste utilisable avec les polices de secours.
 
 Photos améliorées : assets/img/catalogue/produit-{01,02,06,08,22}-hd.png. Restauration via ImageGen intégré : amélioration de netteté et réduction de pixellisation, en conservant les appareils et leur angle de vue.
+
+## SAV et réseau
+
+La page `sav.html` reprend les informations SAV et distribution des pages 7 et 9 de la présentation Smart Home–Midea fournie : techniciens internes, 18 agents agréés, plus de 180 revendeurs et grandes surfaces. Aucun délai ni condition de garantie n’est ajouté. Les demandes SAV et revendeur préremplissent le formulaire Contact.
+
+Carte générée avec ImageGen intégré : `assets/img/sav/reseau-distribution-tunisie.png`. Prompt : carte illustrative de la Tunisie, palette bleu du logo, repères Nord, Grand Tunis, Nabeul–Hammamet, Kairouan, Sousse, Monastir, Sfax, Sud ; réseau de distribution distinct des centres SAV ; libellés français lisibles.

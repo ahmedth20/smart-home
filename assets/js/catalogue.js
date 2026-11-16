@@ -90,6 +90,17 @@ if(request){
   subject.value='Prix et disponibilité — '+p.model;
   request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n'+(p.note?'Merci également de confirmer les caractéristiques de cette fiche.\n':'')+'\nQuantité souhaitée : 1\n\nMerci.';
  }
+ const requestKind=new URLSearchParams(location.search).get('demande');
+ if(requestKind==='sav'){
+  subject.value='Demande de service après-vente';
+  document.getElementById('contact-product').textContent='Décrivez votre appareil et le problème rencontré pour faciliter votre prise en charge.';
+  request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite contacter votre service après-vente.\n\nMarque et modèle : '+(p?p.model:'')+'\nNuméro de série (si disponible) :\nVille / région :\nDate d’achat :\nDescription du problème :\n\nMerci.';
+ }else if(requestKind==='revendeur'){
+  subject.value='Recherche d’un revendeur';
+  document.getElementById('contact-product').textContent='Indiquez votre région et l’appareil recherché.';
+  request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître un revendeur dans ma région.\n\nVille / région :\nAppareil recherché :\n\nMerci.';
+ }
+ const initialSubject=subject.value,initialMessage=request.value;
  const button=document.getElementById('send-request');
  const status=document.getElementById('email-status');
  form.addEventListener('submit',async event=>{
@@ -111,7 +122,7 @@ if(request){
    }else{
     status.textContent='Votre demande a été transmise. Merci ! Notre équipe vous répondra par e-mail.';status.dataset.state='success';
     form.reset();
-    if(p){subject.value='Prix et disponibilité — '+p.model;request.value='Bonjour SMART HOME GROUP,\n\nJe souhaite connaître le prix et la disponibilité du produit suivant :\n'+p.type+' — '+p.model+'\n'+p.capacityLabel+' · '+p.color+'\n\nQuantité souhaitée : 1\n\nMerci.';}
+    subject.value=initialSubject;request.value=initialMessage;
    }
   }catch(error){status.textContent=error.name==='AbortError'?'L’envoi n’a pas pu être confirmé. Réessayez dans un instant. Votre message a été conservé.':'L’envoi n’a pas abouti. Votre message est conservé. Réessayez dans un instant ou contactez info@smarthome.com.tn.';status.dataset.state='error';}
   finally{clearTimeout(timer);button.disabled=false;button.textContent='Envoyer';form.removeAttribute('aria-busy');}
