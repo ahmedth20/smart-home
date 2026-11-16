@@ -79,6 +79,19 @@ if(search){
  document.getElementById('reset-filters').addEventListener('click',()=>{category='all';search.value='';brand.value='all';sort.value='capacity';const url=new URL(location.href);url.searchParams.delete('categorie');history.replaceState(null,'',url);apply();search.focus()});apply();
  const id=location.hash.slice(1);if(byId.has(id))openDetail(id,document.querySelector('[data-detail="'+id+'"]'));
 }
+const heroVideo=document.getElementById('hero-video');
+if(heroVideo){
+ const toggle=document.querySelector('.hero-video-toggle');
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ function syncVideo(){const paused=heroVideo.paused;toggle.setAttribute('aria-label',paused?'Lire l’animation':'Mettre l’animation en pause');toggle.setAttribute('aria-pressed',String(paused));toggle.querySelector('.video-pause-icon').hidden=paused;toggle.querySelector('.video-play-icon').hidden=!paused;}
+ function playVideo(){heroVideo.play().catch(()=>syncVideo());}
+ heroVideo.muted=true;
+ if(reduced.matches){heroVideo.autoplay=false;heroVideo.pause();}else{playVideo();}
+ toggle.addEventListener('click',()=>{if(heroVideo.paused)playVideo();else heroVideo.pause();});
+ heroVideo.addEventListener('play',syncVideo);heroVideo.addEventListener('pause',syncVideo);
+ heroVideo.addEventListener('error',()=>{toggle.hidden=true;heroVideo.classList.add('video-unavailable');});
+ reduced.addEventListener('change',()=>{if(reduced.matches)heroVideo.pause();});syncVideo();
+}
 const request=document.getElementById('request-text');
 if(request){
  const companyEmail='info@smarthome.com.tn';

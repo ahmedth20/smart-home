@@ -39,3 +39,9 @@ La page `sav.html` reprend les informations SAV et distribution des pages 7 et 9
 Carte générée avec ImageGen intégré : `assets/img/sav/reseau-distribution-tunisie.png`. Prompt : carte illustrative de la Tunisie, palette bleu du logo, repères Nord, Grand Tunis, Nabeul–Hammamet, Kairouan, Sousse, Monastir, Sfax, Sud ; réseau de distribution distinct des centres SAV ; libellés français lisibles.
 
 Carte géographique actuelle : assets/img/sav/reseau-distribution-tunisie.svg, construite à partir des contours Natural Earth 1:50m (domaine public), projection équirectangulaire adaptée aux latitudes tunisiennes. Fond mer/terres et repères géographiques des zones. Source : https://www.naturalearthdata.com/ et https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson .
+
+## Animation d’accueil
+
+Vidéo muette de 15 secondes en boucle : `assets/video/smart-home-hero.mp4` (H.264, 960×800, 24 images/s). Les scènes utilisent les visuels du catalogue ; la bannière blanche est conservée en HTML au premier plan. Contrôle pause/lecture, image de secours, lecture inline mobile et pause par défaut avec `prefers-reduced-motion`.
+
+Sources d’animation : `scripts/hero-video-stage.html` et `scripts/render-hero-video.cjs`. Pour reconstruire, installer `imageio-ffmpeg` dans `tmp/video-tools`, puis exécuter le script Node depuis la racine avec Playwright et Edge installés. Le rendu n’est pas requis pour héberger le site.
