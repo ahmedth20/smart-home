@@ -6,7 +6,6 @@ categories=[('lavage','Lave-linge','Du petit format aux grandes capacités.','fa
 for p in products:
  p['subcategory']=('top' if p['type']=='Lave-linge top' else 'semi-automatique') if p['category']=='lavage' else ''
  p['capacityLabel']=f"{p['capacity']} {p['unit']}" + (' nets' if p['category']=='refrigeration' else '')
- if p['id']=='produit-05': p['capacityLabel']='Capacité à confirmer'
 (R/'assets/data/products.json').write_text(json.dumps(products,ensure_ascii=False,indent=2),encoding='utf-8')
 product_data='window.SMART_PRODUCTS = '+json.dumps(products,ensure_ascii=False)+';\n'
 (R/'assets/js/products-data.js').write_text(product_data,encoding='utf-8')
