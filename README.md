@@ -42,6 +42,6 @@ Carte géographique actuelle : assets/img/sav/reseau-distribution-tunisie.svg, c
 
 ## Animation d’accueil
 
-Vidéo muette de 10 secondes en boucle : `assets/video/smart-home-hero-v2.mp4` (H.264, 960×800, 30 images/s). Séquence en mouvement continu : ambiance maison, lavage, réfrigérateur fermé puis ouvert, flux d’air et réunion des produits. Les scènes utilisent les visuels du catalogue ; la bannière blanche est conservée en HTML au premier plan. Lecture automatique muette en boucle sans commandes, image de secours et lecture inline sur mobile.
+Vidéo muette de 14 secondes en boucle : `assets/video/smart-home-hero-v3.mp4` (H.264, 960×800, 30 images/s). Proposition validée : introduction de marque, lavage, froid, eau, rafraîchissement, réseau tunisien et SAV, signature SMART HOME. Les huit repères de la carte sont reliés. Les scènes utilisent les visuels du catalogue ; la bannière blanche est conservée en HTML au premier plan. Lecture automatique muette en boucle sans commandes, image de secours et lecture inline sur mobile.
 
 Sources d’animation : `scripts/hero-video-stage.html` et `scripts/render-hero-video.cjs`. Pour reconstruire, installer `imageio-ffmpeg` dans `tmp/video-tools`, puis exécuter le script Node depuis la racine avec Playwright et Edge installés. Le rendu n’est pas requis pour héberger le site.
