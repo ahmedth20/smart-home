@@ -32,24 +32,12 @@
     "id": "white-whale-coffre-poignee-chromee-large",
     "photos": [
       {
-        "number": 7,
-        "view": "Silver — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-55301cc7-ef39-4226-b576-81beb506ee3f.jpg"
+        "image": "assets/img/catalogue/white-whale/photo-07.webp",
+        "view": "White Whale WCF-456 I — Inox avec porte noire — fermé"
       },
       {
-        "number": 8,
-        "view": "Silver — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-ec3eae24-e199-4f67-96f9-7462a9a9133f.jpg"
-      },
-      {
-        "number": 5,
-        "view": "Anthracite — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-569456b0-d925-4d02-aa26-8296f3980d7b.png"
-      },
-      {
-        "number": 6,
-        "view": "Anthracite — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-e41480c0-0cad-4803-a8d3-9681d9026de4.jpg"
+        "image": "assets/img/catalogue/white-whale/photo-08.webp",
+        "view": "White Whale WCF-456 I — vue intérieure — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -61,20 +49,12 @@
     "id": "white-whale-refrigerateur-une-porte",
     "photos": [
       {
-        "number": 17,
-        "view": "Noir — fermé"
+        "image": "assets/img/catalogue/white-whale/photo-20.webp",
+        "view": "White Whale WR-140 S — Silver — fermé"
       },
       {
-        "number": 18,
-        "view": "Noir — ouvert"
-      },
-      {
-        "number": 20,
-        "view": "Inox — fermé"
-      },
-      {
-        "number": 21,
-        "view": "Inox — ouvert"
+        "image": "assets/img/catalogue/white-whale/photo-21.webp",
+        "view": "White Whale WR-140 S — vue intérieure — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -86,24 +66,12 @@
     "id": "white-whale-refrigerateur-double-porte",
     "photos": [
       {
-        "number": 23,
-        "view": "Noir — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-e3a98834-a92a-42ef-9b12-d8cbc34f4836.png"
+        "image": "assets/img/catalogue/white-whale/photo-26.webp",
+        "view": "White Whale WR-4575 I — Inox — fermé"
       },
       {
-        "number": 24,
-        "view": "Noir — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-c1d27b67-45c8-4292-9309-39ca24609fa5.jpg"
-      },
-      {
-        "number": 26,
-        "view": "Inox — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-009ee88c-3a0c-4e19-861a-f5a730e01408.png"
-      },
-      {
-        "number": 27,
-        "view": "Inox — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-184af16d-e007-4351-9ee1-bbc7f32e8b2f.png"
+        "image": "assets/img/catalogue/white-whale/photo-27.webp",
+        "view": "White Whale WR-4575 I — vue intérieure — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -115,49 +83,67 @@
     "id": "white-whale-refrigerateur-affichage-digital",
     "photos": [
       {
-        "number": 30,
-        "view": "Inox — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-87d7a71b-bfe4-4576-8bc1-603a06948f8e.png"
+        "image": "assets/img/catalogue/white-whale/photo-30.webp",
+        "view": "White Whale WR-5585 I — Inox — fermé"
       },
       {
-        "number": 29,
-        "view": "Inox — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-ca0bb1ef-9e29-4775-8269-67945419fb52.png"
+        "image": "assets/img/catalogue/white-whale/photo-29.webp",
+        "view": "White Whale WR-5585 I — vue intérieure — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
-    "reference": "WR-5585 I / WR-5585 GB",
+    "reference": "WR-5585 I",
     "cataloguePage": 5,
-    "catalogueReference": "WR-4385 HB",
-    "clientPhotos": [
+    "catalogueReference": "WR-4385 HB"
+  },
+  {
+    "id": "white-whale-refrigerateur-affichage-digital-glass-black",
+    "photos": [
       {
         "image": "assets/img/catalogue/white-whale/wr-5585-gb-client.webp",
-        "view": "Glass Black — fermé",
-        "source": "C:\\Users\\thabt\\Downloads\\Products Images Hi Res\\Products Images Hi Res\\WR-G4385 HBV Ex.png"
+        "view": "White Whale WR-5585 GB — Glass Black — fermé"
+      },
+      {
+        "image": "assets/img/catalogue/white-whale/photo-29.webp",
+        "view": "White Whale WR-5585 GB — vue intérieure — ouvert"
       }
-    ]
+    ],
+    "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
+    "reference": "WR-5585 GB",
+    "cataloguePage": 5,
+    "catalogueReference": "WR-4385 HB"
   },
   {
     "id": "white-whale-refrigerateur-distributeur-eau",
     "photos": [
       {
-        "number": 25,
-        "view": "Glass Black — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-ddb7030c-faa6-4290-ae98-a806b4ac63ff.png"
+        "image": "assets/img/catalogue/white-whale/photo-31.webp",
+        "view": "White Whale WR-6595 I Inverter — Inox — fermé"
       },
       {
-        "number": 31,
-        "view": "Inox — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-a0df1a54-14da-4e06-9c96-44ddb9c49ac8.png"
-      },
-      {
-        "number": 28,
-        "view": "Inox — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-99074a72-86fc-408a-8877-5ec22ed5fbb6.png"
+        "image": "assets/img/catalogue/white-whale/photo-28.webp",
+        "view": "White Whale WR-6595 I Inverter — vue intérieure — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
-    "reference": "WR-6595 I Inverter / WR-6595 GB Inverter",
+    "reference": "WR-6595 I Inverter",
+    "cataloguePage": 6,
+    "catalogueReference": "WR-5395-HSSX"
+  },
+  {
+    "id": "white-whale-refrigerateur-distributeur-eau-glass-black",
+    "photos": [
+      {
+        "image": "assets/img/catalogue/white-whale/photo-25.webp",
+        "view": "White Whale WR-6595 GB Inverter — Glass Black — fermé"
+      },
+      {
+        "image": "assets/img/catalogue/white-whale/photo-28.webp",
+        "view": "White Whale WR-6595 GB Inverter — vue intérieure — ouvert"
+      }
+    ],
+    "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
+    "reference": "WR-6595 GB Inverter",
     "cataloguePage": 6,
     "catalogueReference": "WR-5395-HSSX"
   }

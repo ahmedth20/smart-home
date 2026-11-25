@@ -485,15 +485,11 @@
     "image": "assets/img/catalogue/white-whale/photo-07.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-07.webp",
-      "assets/img/catalogue/white-whale/photo-08.webp",
-      "assets/img/catalogue/white-whale/photo-05.webp",
-      "assets/img/catalogue/white-whale/photo-06.webp"
+      "assets/img/catalogue/white-whale/photo-08.webp"
     ],
     "imageAlts": [
-      "White Whale WCF-456 I — Silver — fermé",
-      "White Whale WCF-456 I — Silver — ouvert",
-      "White Whale WCF-456 I — Anthracite — fermé",
-      "White Whale WCF-456 I — Anthracite — ouvert"
+      "White Whale WCF-456 I — Inox avec porte noire — fermé",
+      "White Whale WCF-456 I — vue intérieure — ouvert"
     ],
     "sourcePage": 10,
     "note": "",
@@ -520,21 +516,17 @@
     "category": "refrigeration",
     "capacity": 90,
     "unit": "L",
-    "color": "Noir / Inox",
+    "color": "Silver",
     "brand": "White Whale",
-    "description": "Réfrigérateur mini-bar White Whale WR-140 S de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finitions : Noir / Inox.",
-    "image": "assets/img/catalogue/white-whale/photo-17.webp",
+    "description": "Réfrigérateur mini-bar White Whale WR-140 S de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finition Silver.",
+    "image": "assets/img/catalogue/white-whale/photo-20.webp",
     "images": [
-      "assets/img/catalogue/white-whale/photo-17.webp",
-      "assets/img/catalogue/white-whale/photo-18.webp",
       "assets/img/catalogue/white-whale/photo-20.webp",
       "assets/img/catalogue/white-whale/photo-21.webp"
     ],
     "imageAlts": [
-      "White Whale WR-140 S — Noir — fermé",
-      "White Whale WR-140 S — Noir — ouvert",
-      "White Whale WR-140 S — Inox — fermé",
-      "White Whale WR-140 S — Inox — ouvert"
+      "White Whale WR-140 S — Silver — fermé",
+      "White Whale WR-140 S — vue intérieure — ouvert"
     ],
     "sourcePage": 12,
     "note": "",
@@ -567,16 +559,12 @@
     "description": "Réfrigérateur double porte White Whale WR-4575 I de 345 L avec congélateur supérieur et technologie No Frost. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 60 × 67 × 170 cm. Fabrique à glaçons Twist Ice Maker proposée en option. Finition Inox.",
     "image": "assets/img/catalogue/white-whale/photo-26.webp",
     "images": [
-      "assets/img/catalogue/white-whale/photo-23.webp",
-      "assets/img/catalogue/white-whale/photo-24.webp",
       "assets/img/catalogue/white-whale/photo-26.webp",
       "assets/img/catalogue/white-whale/photo-27.webp"
     ],
     "imageAlts": [
-      "White Whale WR-4575 I — Noir — fermé",
-      "White Whale WR-4575 I — Noir — ouvert",
       "White Whale WR-4575 I — Inox — fermé",
-      "White Whale WR-4575 I — Inox — ouvert"
+      "White Whale WR-4575 I — vue intérieure — ouvert"
     ],
     "sourcePage": 4,
     "note": "",
@@ -600,25 +588,23 @@
   },
   {
     "id": "white-whale-refrigerateur-affichage-digital",
-    "model": "White Whale WR-5585 I / WR-5585 GB",
-    "name": "Réfrigérateur double porte No Frost avec affichage digital White Whale WR-5585 I / WR-5585 GB",
+    "model": "White Whale WR-5585 I",
+    "name": "Réfrigérateur double porte No Frost avec affichage digital White Whale WR-5585 I",
     "type": "Réfrigérateur double porte No Frost avec affichage digital",
     "category": "refrigeration",
     "capacity": 430,
     "unit": "L",
-    "color": "Inox / Glass Black",
+    "color": "Inox",
     "brand": "White Whale",
-    "description": "Réfrigérateur double porte White Whale WR-5585 I / WR-5585 GB de 430 L avec congélateur supérieur, technologie No Frost et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 71 × 69 × 178 cm. Finitions : WR-5585 I en Inox ; WR-5585 GB en Glass Black (verre noir). Options du catalogue : Twist Ice Maker, distributeur d’eau et compresseur Inverter.",
+    "description": "Réfrigérateur double porte White Whale WR-5585 I de 430 L avec congélateur supérieur, technologie No Frost et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 71 × 69 × 178 cm. Finition Inox. Options du catalogue : Twist Ice Maker, distributeur d’eau et compresseur Inverter.",
     "image": "assets/img/catalogue/white-whale/photo-30.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-30.webp",
-      "assets/img/catalogue/white-whale/photo-29.webp",
-      "assets/img/catalogue/white-whale/wr-5585-gb-client.webp"
+      "assets/img/catalogue/white-whale/photo-29.webp"
     ],
     "imageAlts": [
-      "White Whale WR-5585 I / WR-5585 GB — Inox — fermé",
-      "White Whale WR-5585 I / WR-5585 GB — Inox — ouvert",
-      "White Whale WR-5585 GB — Glass Black — fermé"
+      "White Whale WR-5585 I — Inox — fermé",
+      "White Whale WR-5585 I — vue intérieure — ouvert"
     ],
     "sourcePage": 5,
     "note": "",
@@ -641,36 +627,113 @@
       "Compresseur Inverter"
     ],
     "cooling": "no-frost",
-    "catalogueReference": "WR-4385 HB",
-    "generatedImages": [
-      {
-        "image": "assets/img/catalogue/white-whale/wr-5585-gb-black.webp",
-        "source": "WR-4385 HSS FC2-541 Close .png",
-        "edit": "Variante noire créée à partir de la photo Inox à la demande du client."
-      }
-    ]
+    "catalogueReference": "WR-4385 HB"
+  },
+  {
+    "id": "white-whale-refrigerateur-affichage-digital-glass-black",
+    "model": "White Whale WR-5585 GB",
+    "name": "Réfrigérateur double porte No Frost avec affichage digital White Whale WR-5585 GB",
+    "type": "Réfrigérateur double porte No Frost avec affichage digital",
+    "category": "refrigeration",
+    "capacity": 430,
+    "unit": "L",
+    "color": "Glass Black",
+    "brand": "White Whale",
+    "description": "Réfrigérateur double porte White Whale WR-5585 GB de 430 L avec congélateur supérieur, technologie No Frost et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 71 × 69 × 178 cm. Finition Glass Black (verre noir). Options du catalogue : Twist Ice Maker, distributeur d’eau et compresseur Inverter.",
+    "image": "assets/img/catalogue/white-whale/wr-5585-gb-client.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/wr-5585-gb-client.webp",
+      "assets/img/catalogue/white-whale/photo-29.webp"
+    ],
+    "imageAlts": [
+      "White Whale WR-5585 GB — Glass Black — fermé",
+      "White Whale WR-5585 GB — vue intérieure — ouvert"
+    ],
+    "sourcePage": 5,
+    "note": "",
+    "pendingCatalogue": false,
+    "subcategory": "no-frost",
+    "capacityLabel": "430 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "No Frost",
+      "Affichage digital",
+      "Éclairage LED",
+      "Multi-Airflow",
+      "Clayettes en verre trempé",
+      "Porte réversible",
+      "Roulettes"
+    ],
+    "optionalFeatures": [
+      "Twist Ice Maker",
+      "Distributeur d’eau",
+      "Compresseur Inverter"
+    ],
+    "cooling": "no-frost",
+    "catalogueReference": "WR-4385 HB"
   },
   {
     "id": "white-whale-refrigerateur-distributeur-eau",
-    "model": "White Whale WR-6595 I Inverter / WR-6595 GB Inverter",
-    "name": "Réfrigérateur double porte No Frost avec distributeur d’eau White Whale WR-6595 I Inverter / WR-6595 GB Inverter",
+    "model": "White Whale WR-6595 I Inverter",
+    "name": "Réfrigérateur double porte No Frost avec distributeur d’eau White Whale WR-6595 I Inverter",
     "type": "Réfrigérateur double porte No Frost avec distributeur d’eau",
     "category": "refrigeration",
     "capacity": 540,
     "unit": "L",
-    "color": "Inox / Glass Black",
+    "color": "Inox",
     "brand": "White Whale",
-    "description": "Réfrigérateur double porte White Whale WR-6595 I Inverter / WR-6595 GB Inverter de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Finitions : WR-6595 I Inverter en Inox ; WR-6595 GB Inverter en Glass Black (verre noir). Twist Ice Maker proposé en option.",
+    "description": "Réfrigérateur double porte White Whale WR-6595 I Inverter de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Finition Inox. Twist Ice Maker proposé en option.",
     "image": "assets/img/catalogue/white-whale/photo-31.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-31.webp",
-      "assets/img/catalogue/white-whale/photo-28.webp",
-      "assets/img/catalogue/white-whale/photo-25.webp"
+      "assets/img/catalogue/white-whale/photo-28.webp"
     ],
     "imageAlts": [
-      "White Whale WR-6595 I Inverter / WR-6595 GB Inverter — Inox — fermé",
-      "White Whale WR-6595 I Inverter / WR-6595 GB Inverter — Inox — ouvert",
-      "White Whale WR-6595 I Inverter / WR-6595 GB Inverter — Glass Black — fermé"
+      "White Whale WR-6595 I Inverter — Inox — fermé",
+      "White Whale WR-6595 I Inverter — vue intérieure — ouvert"
+    ],
+    "sourcePage": 6,
+    "note": "",
+    "pendingCatalogue": false,
+    "subcategory": "no-frost",
+    "capacityLabel": "540 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "No Frost",
+      "Distributeur d’eau",
+      "Compresseur Inverter",
+      "Affichage digital",
+      "Éclairage LED",
+      "Multi-Airflow",
+      "Clayettes en verre trempé",
+      "Porte réversible",
+      "Roulettes"
+    ],
+    "optionalFeatures": [
+      "Twist Ice Maker"
+    ],
+    "cooling": "no-frost",
+    "catalogueReference": "WR-5395-HSSX"
+  },
+  {
+    "id": "white-whale-refrigerateur-distributeur-eau-glass-black",
+    "model": "White Whale WR-6595 GB Inverter",
+    "name": "Réfrigérateur double porte No Frost avec distributeur d’eau White Whale WR-6595 GB Inverter",
+    "type": "Réfrigérateur double porte No Frost avec distributeur d’eau",
+    "category": "refrigeration",
+    "capacity": 540,
+    "unit": "L",
+    "color": "Glass Black",
+    "brand": "White Whale",
+    "description": "Réfrigérateur double porte White Whale WR-6595 GB Inverter de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Finition Glass Black (verre noir). Twist Ice Maker proposé en option.",
+    "image": "assets/img/catalogue/white-whale/photo-25.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-25.webp",
+      "assets/img/catalogue/white-whale/photo-28.webp"
+    ],
+    "imageAlts": [
+      "White Whale WR-6595 GB Inverter — Glass Black — fermé",
+      "White Whale WR-6595 GB Inverter — vue intérieure — ouvert"
     ],
     "sourcePage": 6,
     "note": "",
