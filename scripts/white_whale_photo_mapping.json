@@ -129,12 +129,11 @@
     "reference": "WR-5585 I / WR-5585 GB",
     "cataloguePage": 5,
     "catalogueReference": "WR-4385 HB",
-    "generatedPhotos": [
+    "clientPhotos": [
       {
-        "image": "assets/img/catalogue/white-whale/wr-5585-gb-black.webp",
+        "image": "assets/img/catalogue/white-whale/wr-5585-gb-client.webp",
         "view": "Glass Black — fermé",
-        "source": "C:\\Users\\thabt\\.codex\\generated_images\\01a12578-ac9d-7292-9301-dc22c990b943\\exec-4d9839ea-1b03-4b3c-b585-185f1ba39f6e.png",
-        "method": "AI recolouring requested by client"
+        "source": "C:\\Users\\thabt\\Downloads\\Products Images Hi Res\\Products Images Hi Res\\WR-G4385 HBV Ex.png"
       }
     ]
   },
