@@ -426,5 +426,261 @@
     "note": "",
     "capacityLabel": "12 kg",
     "subcategory": "semi-automatique"
+  },
+  {
+    "id": "white-whale-coffre-poignee-chromee",
+    "model": "White Whale — congélateur coffre",
+    "name": "Congélateur coffre White Whale",
+    "type": "Congélateur coffre",
+    "category": "congelation",
+    "capacity": 0,
+    "unit": "",
+    "color": "Gris / Noir",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-01.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-01.webp",
+      "assets/img/catalogue/white-whale/photo-02.webp",
+      "assets/img/catalogue/white-whale/photo-03.webp",
+      "assets/img/catalogue/white-whale/photo-04.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Gris — fermé",
+      "White Whale — Gris — ouvert",
+      "White Whale — Noir — fermé",
+      "White Whale — Noir — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-coffre-poignee-chromee-large",
+    "model": "White Whale — congélateur coffre",
+    "name": "Congélateur coffre White Whale",
+    "type": "Congélateur coffre",
+    "category": "congelation",
+    "capacity": 0,
+    "unit": "",
+    "color": "Argent / Anthracite",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-07.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-07.webp",
+      "assets/img/catalogue/white-whale/photo-08.webp",
+      "assets/img/catalogue/white-whale/photo-05.webp",
+      "assets/img/catalogue/white-whale/photo-06.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Argent — fermé",
+      "White Whale — Argent — ouvert",
+      "White Whale — Anthracite — fermé",
+      "White Whale — Anthracite — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-coffre-poignee-noire",
+    "model": "White Whale — congélateur coffre",
+    "name": "Congélateur coffre White Whale",
+    "type": "Congélateur coffre",
+    "category": "congelation",
+    "capacity": 0,
+    "unit": "",
+    "color": "Argent",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-09.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-09.webp",
+      "assets/img/catalogue/white-whale/photo-10.webp",
+      "assets/img/catalogue/white-whale/photo-11.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Argent — face",
+      "White Whale — Argent — ouvert",
+      "White Whale — Argent — trois quarts"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-coffre-serrure-centrale",
+    "model": "White Whale — congélateur coffre",
+    "name": "Congélateur coffre White Whale",
+    "type": "Congélateur coffre",
+    "category": "congelation",
+    "capacity": 0,
+    "unit": "",
+    "color": "Argent",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-12.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-12.webp",
+      "assets/img/catalogue/white-whale/photo-13.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Argent — fermé",
+      "White Whale — Argent — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-coffre-serrure-centrale-large",
+    "model": "White Whale — congélateur coffre",
+    "name": "Congélateur coffre White Whale",
+    "type": "Congélateur coffre",
+    "category": "congelation",
+    "capacity": 0,
+    "unit": "",
+    "color": "Argent",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-14.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-14.webp",
+      "assets/img/catalogue/white-whale/photo-15.webp",
+      "assets/img/catalogue/white-whale/photo-16.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Argent — face",
+      "White Whale — Argent — ouvert",
+      "White Whale — Argent — trois quarts"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-refrigerateur-une-porte",
+    "model": "White Whale — réfrigérateur une porte",
+    "name": "Réfrigérateur une porte White Whale",
+    "type": "Réfrigérateur une porte",
+    "category": "refrigeration",
+    "capacity": 0,
+    "unit": "",
+    "color": "Noir / Inox",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-17.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-17.webp",
+      "assets/img/catalogue/white-whale/photo-18.webp",
+      "assets/img/catalogue/white-whale/photo-20.webp",
+      "assets/img/catalogue/white-whale/photo-21.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Noir — fermé",
+      "White Whale — Noir — ouvert",
+      "White Whale — Inox — fermé",
+      "White Whale — Inox — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-refrigerateur-double-porte",
+    "model": "White Whale — réfrigérateur double porte",
+    "name": "Réfrigérateur double porte White Whale",
+    "type": "Réfrigérateur double porte",
+    "category": "refrigeration",
+    "capacity": 0,
+    "unit": "",
+    "color": "Noir / Inox",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-23.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-23.webp",
+      "assets/img/catalogue/white-whale/photo-24.webp",
+      "assets/img/catalogue/white-whale/photo-26.webp",
+      "assets/img/catalogue/white-whale/photo-27.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Noir — fermé",
+      "White Whale — Noir — ouvert",
+      "White Whale — Inox — fermé",
+      "White Whale — Inox — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-refrigerateur-affichage-digital",
+    "model": "White Whale — réfrigérateur double porte avec affichage digital",
+    "name": "Réfrigérateur double porte avec affichage digital White Whale",
+    "type": "Réfrigérateur double porte avec affichage digital",
+    "category": "refrigeration",
+    "capacity": 0,
+    "unit": "",
+    "color": "Inox",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-30.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-30.webp",
+      "assets/img/catalogue/white-whale/photo-29.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Inox — fermé",
+      "White Whale — Inox — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
+  },
+  {
+    "id": "white-whale-refrigerateur-distributeur-eau",
+    "model": "White Whale — réfrigérateur double porte avec distributeur d’eau",
+    "name": "Réfrigérateur double porte avec distributeur d’eau White Whale",
+    "type": "Réfrigérateur double porte avec distributeur d’eau",
+    "category": "refrigeration",
+    "capacity": 0,
+    "unit": "",
+    "color": "Noir / Inox",
+    "brand": "White Whale",
+    "description": "",
+    "image": "assets/img/catalogue/white-whale/photo-25.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-25.webp",
+      "assets/img/catalogue/white-whale/photo-31.webp",
+      "assets/img/catalogue/white-whale/photo-28.webp"
+    ],
+    "imageAlts": [
+      "White Whale — Noir — fermé",
+      "White Whale — Inox — fermé",
+      "White Whale — Inox — ouvert"
+    ],
+    "sourcePage": null,
+    "note": "",
+    "pendingCatalogue": true,
+    "subcategory": "",
+    "capacityLabel": ""
   }
 ]
