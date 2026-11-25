@@ -3,24 +3,12 @@
     "id": "white-whale-coffre-poignee-chromee",
     "photos": [
       {
-        "number": 1,
-        "view": "Gris — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-4c23d591-3ae8-4550-96ee-bf1ca0cd32a1.jpg"
+        "image": "assets/img/catalogue/white-whale/photo-01.webp",
+        "view": "White Whale WCF-346 I — Inox — fermé"
       },
       {
-        "number": 2,
-        "view": "Gris — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-59c1ce17-56ac-4bfe-965c-74508d2f1a41.jpg"
-      },
-      {
-        "number": 3,
-        "view": "Noir — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-d49ff2d1-7e7b-4c00-beb4-b8e8511ccba0.jpg"
-      },
-      {
-        "number": 4,
-        "view": "Noir — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-1838ac3c-3367-413b-b093-6f808bc9a162.jpg"
+        "image": "assets/img/catalogue/white-whale/photo-02.webp",
+        "view": "White Whale WCF-346 I — Inox — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -32,12 +20,12 @@
     "id": "white-whale-coffre-poignee-chromee-large",
     "photos": [
       {
-        "image": "assets/img/catalogue/white-whale/photo-07.webp",
-        "view": "White Whale WCF-456 I — Inox avec porte noire — fermé"
+        "image": "assets/img/catalogue/white-whale/photo-05.webp",
+        "view": "White Whale WCF-456 I — Inox — fermé"
       },
       {
-        "image": "assets/img/catalogue/white-whale/photo-08.webp",
-        "view": "White Whale WCF-456 I — vue intérieure — ouvert"
+        "image": "assets/img/catalogue/white-whale/photo-06.webp",
+        "view": "White Whale WCF-456 I — Inox — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",

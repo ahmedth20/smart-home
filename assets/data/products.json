@@ -438,21 +438,17 @@
     "category": "congelation",
     "capacity": 195,
     "unit": "L",
-    "color": "Inox / Noir",
+    "color": "Inox",
     "brand": "White Whale",
-    "description": "Congélateur coffre White Whale WCF-346 I de 195 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 83,5 × 66 × 83,5 cm. Finition : corps Inox et porte noire.",
+    "description": "Congélateur coffre White Whale WCF-346 I de 195 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 83,5 × 66 × 83,5 cm. Finition Inox.",
     "image": "assets/img/catalogue/white-whale/photo-01.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-01.webp",
-      "assets/img/catalogue/white-whale/photo-02.webp",
-      "assets/img/catalogue/white-whale/photo-03.webp",
-      "assets/img/catalogue/white-whale/photo-04.webp"
+      "assets/img/catalogue/white-whale/photo-02.webp"
     ],
     "imageAlts": [
-      "White Whale WCF-346 I — Gris — fermé",
-      "White Whale WCF-346 I — Gris — ouvert",
-      "White Whale WCF-346 I — Noir — fermé",
-      "White Whale WCF-346 I — Noir — ouvert"
+      "White Whale WCF-346 I — Inox — fermé",
+      "White Whale WCF-346 I — Inox — ouvert"
     ],
     "sourcePage": 11,
     "note": "",
@@ -479,17 +475,17 @@
     "category": "congelation",
     "capacity": 273,
     "unit": "L",
-    "color": "Inox / Noir",
+    "color": "Inox",
     "brand": "White Whale",
-    "description": "Congélateur coffre White Whale WCF-456 I de 273 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 108 × 66,5 × 83,5 cm. Finition : corps Inox et porte noire.",
-    "image": "assets/img/catalogue/white-whale/photo-07.webp",
+    "description": "Congélateur coffre White Whale WCF-456 I de 273 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 108 × 66,5 × 83,5 cm. Finition Inox.",
+    "image": "assets/img/catalogue/white-whale/photo-05.webp",
     "images": [
-      "assets/img/catalogue/white-whale/photo-07.webp",
-      "assets/img/catalogue/white-whale/photo-08.webp"
+      "assets/img/catalogue/white-whale/photo-05.webp",
+      "assets/img/catalogue/white-whale/photo-06.webp"
     ],
     "imageAlts": [
-      "White Whale WCF-456 I — Inox avec porte noire — fermé",
-      "White Whale WCF-456 I — vue intérieure — ouvert"
+      "White Whale WCF-456 I — Inox — fermé",
+      "White Whale WCF-456 I — Inox — ouvert"
     ],
     "sourcePage": 10,
     "note": "",
