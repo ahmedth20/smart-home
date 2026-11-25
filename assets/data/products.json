@@ -512,17 +512,21 @@
     "category": "refrigeration",
     "capacity": 90,
     "unit": "L",
-    "color": "Silver",
+    "color": "Noir / Inox",
     "brand": "White Whale",
-    "description": "Réfrigérateur mini-bar White Whale WR-140 S de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finition Silver.",
-    "image": "assets/img/catalogue/white-whale/photo-20.webp",
+    "description": "Réfrigérateur mini-bar White Whale WR-140 S de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finitions : Noir / Inox.",
+    "image": "assets/img/catalogue/white-whale/photo-17.webp",
     "images": [
+      "assets/img/catalogue/white-whale/photo-17.webp",
+      "assets/img/catalogue/white-whale/photo-18.webp",
       "assets/img/catalogue/white-whale/photo-20.webp",
       "assets/img/catalogue/white-whale/photo-21.webp"
     ],
     "imageAlts": [
-      "White Whale WR-140 S — Silver — fermé",
-      "White Whale WR-140 S — Silver — ouvert"
+      "White Whale WR-140 S — Noir — fermé",
+      "White Whale WR-140 S — Noir — ouvert",
+      "White Whale WR-140 S — Inox — fermé",
+      "White Whale WR-140 S — Inox — ouvert"
     ],
     "sourcePage": 12,
     "note": "",

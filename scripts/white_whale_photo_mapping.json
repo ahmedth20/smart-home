@@ -41,14 +41,20 @@
     "id": "white-whale-refrigerateur-une-porte",
     "photos": [
       {
+        "number": 17,
+        "view": "Noir — fermé"
+      },
+      {
+        "number": 18,
+        "view": "Noir — ouvert"
+      },
+      {
         "number": 20,
-        "view": "Silver — fermé",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-a717a9f3-f650-46ec-ab4c-d31f28a7e6ca.jpg"
+        "view": "Inox — fermé"
       },
       {
         "number": 21,
-        "view": "Silver — ouvert",
-        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-17e6d400-be81-48dd-b52a-ca087e472a32.jpg"
+        "view": "Inox — ouvert"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
