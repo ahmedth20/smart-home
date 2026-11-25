@@ -128,7 +128,15 @@
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
     "reference": "WR-5585 I / WR-5585 GB",
     "cataloguePage": 5,
-    "catalogueReference": "WR-4385 HB"
+    "catalogueReference": "WR-4385 HB",
+    "generatedPhotos": [
+      {
+        "image": "assets/img/catalogue/white-whale/wr-5585-gb-black.webp",
+        "view": "Glass Black — fermé",
+        "source": "C:\\Users\\thabt\\.codex\\generated_images\\01a12578-ac9d-7292-9301-dc22c990b943\\exec-4d9839ea-1b03-4b3c-b585-185f1ba39f6e.png",
+        "method": "AI recolouring requested by client"
+      }
+    ]
   },
   {
     "id": "white-whale-refrigerateur-distributeur-eau",

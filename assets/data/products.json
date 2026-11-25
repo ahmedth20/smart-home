@@ -612,11 +612,13 @@
     "image": "assets/img/catalogue/white-whale/photo-30.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-30.webp",
-      "assets/img/catalogue/white-whale/photo-29.webp"
+      "assets/img/catalogue/white-whale/photo-29.webp",
+      "assets/img/catalogue/white-whale/wr-5585-gb-black.webp"
     ],
     "imageAlts": [
       "White Whale WR-5585 I / WR-5585 GB — Inox — fermé",
-      "White Whale WR-5585 I / WR-5585 GB — Inox — ouvert"
+      "White Whale WR-5585 I / WR-5585 GB — Inox — ouvert",
+      "White Whale WR-5585 GB — Glass Black — fermé"
     ],
     "sourcePage": 5,
     "note": "",
@@ -639,7 +641,14 @@
       "Compresseur Inverter"
     ],
     "cooling": "no-frost",
-    "catalogueReference": "WR-4385 HB"
+    "catalogueReference": "WR-4385 HB",
+    "generatedImages": [
+      {
+        "image": "assets/img/catalogue/white-whale/wr-5585-gb-black.webp",
+        "source": "WR-4385 HSS FC2-541 Close .png",
+        "edit": "Variante noire créée à partir de la photo Inox à la demande du client."
+      }
+    ]
   },
   {
     "id": "white-whale-refrigerateur-distributeur-eau",
