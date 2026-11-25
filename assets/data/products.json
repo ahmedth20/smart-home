@@ -509,7 +509,7 @@
     "model": "White Whale WR-140 S",
     "name": "Réfrigérateur mini-bar une porte White Whale WR-140 S",
     "type": "Réfrigérateur mini-bar une porte",
-    "category": "refrigeration",
+    "category": "mini-bar",
     "capacity": 90,
     "unit": "L",
     "color": "Silver",
@@ -527,7 +527,45 @@
     "sourcePage": 12,
     "note": "",
     "pendingCatalogue": false,
-    "subcategory": "defrost",
+    "subcategory": "",
+    "capacityLabel": "90 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "Éclairage intérieur",
+      "Porte réversible",
+      "Clayette",
+      "Tiroir de rangement"
+    ],
+    "optionalFeatures": [
+      "Serrure"
+    ],
+    "cooling": "defrost",
+    "catalogueReference": "WR-4K"
+  },
+  {
+    "id": "white-whale-mini-bar-wr-140-b",
+    "model": "White Whale WR-140 B",
+    "name": "Réfrigérateur mini-bar une porte White Whale WR-140 B",
+    "type": "Réfrigérateur mini-bar une porte",
+    "category": "mini-bar",
+    "capacity": 90,
+    "unit": "L",
+    "color": "Noir",
+    "brand": "White Whale",
+    "description": "Réfrigérateur mini-bar White Whale WR-140 B de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finition Noir.",
+    "image": "assets/img/catalogue/white-whale/photo-17.webp",
+    "images": [
+      "assets/img/catalogue/white-whale/photo-17.webp",
+      "assets/img/catalogue/white-whale/photo-18.webp"
+    ],
+    "imageAlts": [
+      "White Whale WR-140 B — Noir — fermé",
+      "White Whale WR-140 B — Noir — ouvert"
+    ],
+    "sourcePage": 12,
+    "note": "",
+    "pendingCatalogue": false,
+    "subcategory": "",
     "capacityLabel": "90 L",
     "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
     "features": [

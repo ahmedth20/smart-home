@@ -134,5 +134,22 @@
     "reference": "WR-6595 GB Inverter",
     "cataloguePage": 6,
     "catalogueReference": "WR-5395-HSSX"
+  },
+  {
+    "id": "white-whale-mini-bar-wr-140-b",
+    "reference": "WR-140 B",
+    "catalogueReference": "WR-4K",
+    "cataloguePage": 12,
+    "status": "Variante noire ajoutée à la demande du client",
+    "photos": [
+      {
+        "image": "assets/img/catalogue/white-whale/photo-17.webp",
+        "view": "White Whale WR-140 B — Noir — fermé"
+      },
+      {
+        "image": "assets/img/catalogue/white-whale/photo-18.webp",
+        "view": "White Whale WR-140 B — Noir — ouvert"
+      }
+    ]
   }
 ]

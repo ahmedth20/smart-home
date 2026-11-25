@@ -28,7 +28,7 @@ window.SMART_TRANSLATIONS = {
   "Rafraîchisseurs d’air": "Air coolers",
   "LE CATALOGUE SMART HOME": "THE SMART HOME CATALOGUE",
   "À découvrir.": "Discover our selection.",
-  "Voir les 32 produits": "View all 32 products",
+  "Voir les 33 produits": "View all 33 products",
   "Machine à laver semi-automatique": "Semi-automatic washing machine",
   "Découvrir le produit": "View product",
   "Lave-linge top": "Top-loading washing machine",
@@ -102,7 +102,7 @@ window.SMART_TRANSLATIONS = {
   "Des appareils pour": "Appliances for",
   "le quotidien.": "everyday life.",
   "SMART HOME GROUP rassemble dans son catalogue 2026 des appareils Fresh, Géant et White Whale pour le lavage, la réfrigération, la congélation, l’eau et le rafraîchissement de l’air.": "The SMART HOME GROUP 2026 catalogue brings together Fresh, Géant and White Whale appliances for laundry, refrigeration, freezing, drinking water and air cooling.",
-  "Les 32 fiches vous permettent de découvrir les modèles, leurs couleurs et leurs caractéristiques avant de préparer votre demande.": "Explore all 32 product listings, their colours and specifications before sending us your enquiry.",
+  "Les 33 fiches vous permettent de découvrir les modèles, leurs couleurs et leurs caractéristiques avant de préparer votre demande.": "Explore all 33 product listings, their colours and specifications before sending us your enquiry.",
   "Découvrir le catalogue": "Explore the catalogue",
   "SERVICE APRÈS-VENTE · SMART HOME GROUP": "AFTER-SALES SERVICE · SMART HOME GROUP",
   "À vos côtés,": "By your side,",
@@ -225,5 +225,9 @@ window.SMART_TRANSLATIONS = {
   "Réfrigérateur double porte White Whale WR-6595 I Inverter de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Finition Inox. Twist Ice Maker proposé en option.": "White Whale WR-6595 I Inverter double-door refrigerator, 540 L, with top freezer, No Frost technology, water dispenser, Inverter compressor and digital display. LED interior lighting, Multi-Airflow circulation, tempered-glass shelves, reversible door and wheels. Dimensions (W × D × H): 80 × 72 × 184 cm. Stainless-steel finish. Optional Twist Ice Maker.",
   "Réfrigérateur double porte White Whale WR-6595 GB Inverter de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Finition Glass Black (verre noir). Twist Ice Maker proposé en option.": "White Whale WR-6595 GB Inverter double-door refrigerator, 540 L, with top freezer, No Frost technology, water dispenser, Inverter compressor and digital display. LED interior lighting, Multi-Airflow circulation, tempered-glass shelves, reversible door and wheels. Dimensions (W × D × H): 80 × 72 × 184 cm. Glass Black finish. Optional Twist Ice Maker.",
   "Congélateur coffre White Whale WCF-346 I de 195 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 83,5 × 66 × 83,5 cm. Finition Inox.": "White Whale WCF-346 I chest freezer, 195 L. Super Freeze function, interior light, lock, internal sliding glass panels and wheels. Dimensions (W × D × H): 83.5 × 66 × 83.5 cm. Stainless-steel finish.",
-  "Congélateur coffre White Whale WCF-456 I de 273 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 108 × 66,5 × 83,5 cm. Finition Inox.": "White Whale WCF-456 I chest freezer, 273 L. Super Freeze function, interior light, lock, internal sliding glass panels and wheels. Dimensions (W × D × H): 108 × 66.5 × 83.5 cm. Stainless-steel finish."
+  "Congélateur coffre White Whale WCF-456 I de 273 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 108 × 66,5 × 83,5 cm. Finition Inox.": "White Whale WCF-456 I chest freezer, 273 L. Super Freeze function, interior light, lock, internal sliding glass panels and wheels. Dimensions (W × D × H): 108 × 66.5 × 83.5 cm. Stainless-steel finish.",
+  "Réfrigérateur mini-bar White Whale WR-140 B de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option. Finition Noir.": "White Whale WR-140 B minibar refrigerator, 90 L, with interior light, reversible door, shelf and storage drawer. Dimensions (W × D × H): 47 × 46.5 × 81 cm. Optional lock. Black finish.",
+  "Mini-Bar": "Mini-Bar",
+  "Le froid en format compact.": "Cooling in a compact format.",
+  "Explorez nos six univers et trouvez": "Explore our six categories and find"
 };
