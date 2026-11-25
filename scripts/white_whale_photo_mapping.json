@@ -4,13 +4,23 @@
     "photos": [
       {
         "number": 1,
-        "view": "Inox avec porte noire — fermé",
+        "view": "Gris — fermé",
         "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-4c23d591-3ae8-4550-96ee-bf1ca0cd32a1.jpg"
       },
       {
         "number": 2,
-        "view": "Inox avec porte noire — ouvert",
+        "view": "Gris — ouvert",
         "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-59c1ce17-56ac-4bfe-965c-74508d2f1a41.jpg"
+      },
+      {
+        "number": 3,
+        "view": "Noir — fermé",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-d49ff2d1-7e7b-4c00-beb4-b8e8511ccba0.jpg"
+      },
+      {
+        "number": 4,
+        "view": "Noir — ouvert",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-1838ac3c-3367-413b-b093-6f808bc9a162.jpg"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -23,13 +33,23 @@
     "photos": [
       {
         "number": 7,
-        "view": "Inox avec porte noire — fermé",
+        "view": "Silver — fermé",
         "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-55301cc7-ef39-4226-b576-81beb506ee3f.jpg"
       },
       {
         "number": 8,
-        "view": "Inox avec porte noire — ouvert",
+        "view": "Silver — ouvert",
         "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-ec3eae24-e199-4f67-96f9-7462a9a9133f.jpg"
+      },
+      {
+        "number": 5,
+        "view": "Anthracite — fermé",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-569456b0-d925-4d02-aa26-8296f3980d7b.png"
+      },
+      {
+        "number": 6,
+        "view": "Anthracite — ouvert",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-e41480c0-0cad-4803-a8d3-9681d9026de4.jpg"
       }
     ],
     "status": "Référence commerciale fournie par le client ; caractéristiques issues du catalogue",
@@ -65,6 +85,16 @@
   {
     "id": "white-whale-refrigerateur-double-porte",
     "photos": [
+      {
+        "number": 23,
+        "view": "Noir — fermé",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-e3a98834-a92a-42ef-9b12-d8cbc34f4836.png"
+      },
+      {
+        "number": 24,
+        "view": "Noir — ouvert",
+        "original": "C:\\Users\\thabt\\AppData\\Local\\Temp\\codex-clipboard-c1d27b67-45c8-4292-9309-39ca24609fa5.jpg"
+      },
       {
         "number": 26,
         "view": "Inox — fermé",
