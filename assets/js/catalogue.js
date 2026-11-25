@@ -64,7 +64,7 @@ if(search){
    const list=[...grid.querySelectorAll('.product-card')];
    list.sort((a,b)=>sort.value==='name'?a.dataset.search.localeCompare(b.dataset.search,'fr'):((Number(a.dataset.capacity)||Infinity)-(Number(b.dataset.capacity)||Infinity))*(sort.value==='capacity-desc'?-1:1)).forEach(card=>grid.append(card));
   });
-  document.querySelectorAll('[data-laundry-section]').forEach(section=>{
+  document.querySelectorAll('[data-product-section]').forEach(section=>{
    const visible=section.querySelectorAll('.product-card:not([hidden])').length;
    section.hidden=!visible;section.querySelector('.laundry-count').textContent=visible+' modèle'+(visible>1?'s':'');
   });

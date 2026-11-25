@@ -353,7 +353,8 @@
     "sourcePage": 10,
     "note": "",
     "capacityLabel": "302 L nets",
-    "subcategory": ""
+    "subcategory": "defrost",
+    "cooling": "defrost"
   },
   {
     "id": "produit-23",
@@ -370,11 +371,12 @@
     "sourcePage": 10,
     "note": "",
     "capacityLabel": "295 L nets",
-    "subcategory": "",
+    "subcategory": "defrost",
     "images": [
       "assets/img/catalogue/geant-bcd435-ferme-transparent.png",
       "assets/img/catalogue/geant-bcd435-ouvert-transparent.png"
-    ]
+    ],
+    "cooling": "defrost"
   },
   {
     "id": "produit-24",
@@ -391,7 +393,8 @@
     "sourcePage": 10,
     "note": "",
     "capacityLabel": "458 L nets",
-    "subcategory": ""
+    "subcategory": "defrost",
+    "cooling": "defrost"
   },
   {
     "id": "produit-25",
@@ -429,15 +432,15 @@
   },
   {
     "id": "white-whale-coffre-poignee-chromee",
-    "model": "White Whale — congélateur coffre",
-    "name": "Congélateur coffre White Whale",
+    "model": "White Whale WCF-245X",
+    "name": "Congélateur coffre White Whale WCF-245X",
     "type": "Congélateur coffre",
     "category": "congelation",
-    "capacity": 0,
-    "unit": "",
-    "color": "Gris / Noir",
+    "capacity": 195,
+    "unit": "L",
+    "color": "Gris / Noir / Blanc",
     "brand": "White Whale",
-    "description": "",
+    "description": "Congélateur coffre White Whale WCF-245X de 195 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 83,5 × 66 × 83,5 cm.",
     "image": "assets/img/catalogue/white-whale/photo-01.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-01.webp",
@@ -446,28 +449,38 @@
       "assets/img/catalogue/white-whale/photo-04.webp"
     ],
     "imageAlts": [
-      "White Whale — Gris — fermé",
-      "White Whale — Gris — ouvert",
-      "White Whale — Noir — fermé",
-      "White Whale — Noir — ouvert"
+      "White Whale WCF-245X — Gris — fermé",
+      "White Whale WCF-245X — Gris — ouvert",
+      "White Whale WCF-245X — Noir — fermé",
+      "White Whale WCF-245X — Noir — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 11,
     "note": "",
-    "pendingCatalogue": true,
+    "pendingCatalogue": false,
     "subcategory": "",
-    "capacityLabel": ""
+    "capacityLabel": "195 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "Super Freeze",
+      "Éclairage intérieur",
+      "Serrure",
+      "Vitres coulissantes",
+      "Roulettes"
+    ],
+    "optionalFeatures": [],
+    "sourceDiscrepancy": "Le catalogue indique un affichage digital, mais les photos fournies montrent des commandes mécaniques ; caractéristique non annoncée sur la fiche."
   },
   {
     "id": "white-whale-coffre-poignee-chromee-large",
-    "model": "White Whale — congélateur coffre",
-    "name": "Congélateur coffre White Whale",
+    "model": "White Whale WCF-345X",
+    "name": "Congélateur coffre White Whale WCF-345X",
     "type": "Congélateur coffre",
     "category": "congelation",
-    "capacity": 0,
-    "unit": "",
-    "color": "Argent / Anthracite",
+    "capacity": 273,
+    "unit": "L",
+    "color": "Silver / Noir / Blanc / Champagne",
     "brand": "White Whale",
-    "description": "",
+    "description": "Congélateur coffre White Whale WCF-345X de 273 L. Fonction Super Freeze, éclairage intérieur, serrure, vitres coulissantes intérieures et roulettes. Dimensions (L × P × H) : 108 × 66,5 × 83,5 cm.",
     "image": "assets/img/catalogue/white-whale/photo-07.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-07.webp",
@@ -476,16 +489,26 @@
       "assets/img/catalogue/white-whale/photo-06.webp"
     ],
     "imageAlts": [
-      "White Whale — Argent — fermé",
-      "White Whale — Argent — ouvert",
-      "White Whale — Anthracite — fermé",
-      "White Whale — Anthracite — ouvert"
+      "White Whale WCF-345X — Silver — fermé",
+      "White Whale WCF-345X — Silver — ouvert",
+      "White Whale WCF-345X — Anthracite — fermé",
+      "White Whale WCF-345X — Anthracite — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 10,
     "note": "",
-    "pendingCatalogue": true,
+    "pendingCatalogue": false,
     "subcategory": "",
-    "capacityLabel": ""
+    "capacityLabel": "273 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "Super Freeze",
+      "Éclairage intérieur",
+      "Serrure",
+      "Vitres coulissantes",
+      "Roulettes"
+    ],
+    "optionalFeatures": [],
+    "sourceDiscrepancy": "Le catalogue indique un affichage digital, mais les photos fournies montrent des commandes mécaniques ; caractéristique non annoncée sur la fiche."
   },
   {
     "id": "white-whale-coffre-poignee-noire",
@@ -495,7 +518,7 @@
     "category": "congelation",
     "capacity": 0,
     "unit": "",
-    "color": "Argent",
+    "color": "Silver",
     "brand": "White Whale",
     "description": "",
     "image": "assets/img/catalogue/white-whale/photo-09.webp",
@@ -505,9 +528,9 @@
       "assets/img/catalogue/white-whale/photo-11.webp"
     ],
     "imageAlts": [
-      "White Whale — Argent — face",
-      "White Whale — Argent — ouvert",
-      "White Whale — Argent — trois quarts"
+      "White Whale — Silver — face",
+      "White Whale — Silver — ouvert",
+      "White Whale — Silver — trois quarts"
     ],
     "sourcePage": null,
     "note": "",
@@ -523,7 +546,7 @@
     "category": "congelation",
     "capacity": 0,
     "unit": "",
-    "color": "Argent",
+    "color": "Silver",
     "brand": "White Whale",
     "description": "",
     "image": "assets/img/catalogue/white-whale/photo-12.webp",
@@ -532,8 +555,8 @@
       "assets/img/catalogue/white-whale/photo-13.webp"
     ],
     "imageAlts": [
-      "White Whale — Argent — fermé",
-      "White Whale — Argent — ouvert"
+      "White Whale — Silver — fermé",
+      "White Whale — Silver — ouvert"
     ],
     "sourcePage": null,
     "note": "",
@@ -549,7 +572,7 @@
     "category": "congelation",
     "capacity": 0,
     "unit": "",
-    "color": "Argent",
+    "color": "Silver",
     "brand": "White Whale",
     "description": "",
     "image": "assets/img/catalogue/white-whale/photo-14.webp",
@@ -559,9 +582,9 @@
       "assets/img/catalogue/white-whale/photo-16.webp"
     ],
     "imageAlts": [
-      "White Whale — Argent — face",
-      "White Whale — Argent — ouvert",
-      "White Whale — Argent — trois quarts"
+      "White Whale — Silver — face",
+      "White Whale — Silver — ouvert",
+      "White Whale — Silver — trois quarts"
     ],
     "sourcePage": null,
     "note": "",
@@ -571,15 +594,15 @@
   },
   {
     "id": "white-whale-refrigerateur-une-porte",
-    "model": "White Whale — réfrigérateur une porte",
-    "name": "Réfrigérateur une porte White Whale",
-    "type": "Réfrigérateur une porte",
+    "model": "White Whale WR-4K",
+    "name": "Réfrigérateur mini-bar une porte White Whale WR-4K",
+    "type": "Réfrigérateur mini-bar une porte",
     "category": "refrigeration",
-    "capacity": 0,
-    "unit": "",
-    "color": "Noir / Inox",
+    "capacity": 90,
+    "unit": "L",
+    "color": "Noir / Inox / Blanc / Bois",
     "brand": "White Whale",
-    "description": "",
+    "description": "Réfrigérateur mini-bar White Whale WR-4K de 90 L, avec éclairage intérieur, porte réversible, clayette et tiroir de rangement. Dimensions (L × P × H) : 47 × 46,5 × 81 cm. Serrure proposée en option.",
     "image": "assets/img/catalogue/white-whale/photo-17.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-17.webp",
@@ -588,28 +611,39 @@
       "assets/img/catalogue/white-whale/photo-21.webp"
     ],
     "imageAlts": [
-      "White Whale — Noir — fermé",
-      "White Whale — Noir — ouvert",
-      "White Whale — Inox — fermé",
-      "White Whale — Inox — ouvert"
+      "White Whale WR-4K — Noir — fermé",
+      "White Whale WR-4K — Noir — ouvert",
+      "White Whale WR-4K — Inox — fermé",
+      "White Whale WR-4K — Inox — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 12,
     "note": "",
-    "pendingCatalogue": true,
-    "subcategory": "",
-    "capacityLabel": ""
+    "pendingCatalogue": false,
+    "subcategory": "defrost",
+    "capacityLabel": "90 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "Éclairage intérieur",
+      "Porte réversible",
+      "Clayette",
+      "Tiroir de rangement"
+    ],
+    "optionalFeatures": [
+      "Serrure"
+    ],
+    "cooling": "defrost"
   },
   {
     "id": "white-whale-refrigerateur-double-porte",
-    "model": "White Whale — réfrigérateur double porte",
-    "name": "Réfrigérateur double porte White Whale",
-    "type": "Réfrigérateur double porte",
+    "model": "White Whale WR-3375 HB",
+    "name": "Réfrigérateur double porte No Frost White Whale WR-3375 HB",
+    "type": "Réfrigérateur double porte No Frost",
     "category": "refrigeration",
-    "capacity": 0,
-    "unit": "",
+    "capacity": 345,
+    "unit": "L",
     "color": "Noir / Inox",
     "brand": "White Whale",
-    "description": "",
+    "description": "Réfrigérateur double porte White Whale WR-3375 HB de 345 L avec congélateur supérieur et technologie No Frost. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 60 × 67 × 170 cm. Fabrique à glaçons Twist Ice Maker proposée en option.",
     "image": "assets/img/catalogue/white-whale/photo-23.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-23.webp",
@@ -618,54 +652,84 @@
       "assets/img/catalogue/white-whale/photo-27.webp"
     ],
     "imageAlts": [
-      "White Whale — Noir — fermé",
-      "White Whale — Noir — ouvert",
-      "White Whale — Inox — fermé",
-      "White Whale — Inox — ouvert"
+      "White Whale WR-3375 HB — Noir — fermé",
+      "White Whale WR-3375 HB — Noir — ouvert",
+      "White Whale WR-3375 HB — Inox — fermé",
+      "White Whale WR-3375 HB — Inox — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 4,
     "note": "",
-    "pendingCatalogue": true,
-    "subcategory": "",
-    "capacityLabel": ""
+    "pendingCatalogue": false,
+    "subcategory": "no-frost",
+    "capacityLabel": "345 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "No Frost",
+      "Éclairage LED",
+      "Multi-Airflow",
+      "Clayettes en verre trempé",
+      "Porte réversible",
+      "Roulettes"
+    ],
+    "optionalFeatures": [
+      "Twist Ice Maker"
+    ],
+    "cooling": "no-frost"
   },
   {
     "id": "white-whale-refrigerateur-affichage-digital",
-    "model": "White Whale — réfrigérateur double porte avec affichage digital",
-    "name": "Réfrigérateur double porte avec affichage digital White Whale",
-    "type": "Réfrigérateur double porte avec affichage digital",
+    "model": "White Whale WR-4385 HB",
+    "name": "Réfrigérateur double porte No Frost avec affichage digital White Whale WR-4385 HB",
+    "type": "Réfrigérateur double porte No Frost avec affichage digital",
     "category": "refrigeration",
-    "capacity": 0,
-    "unit": "",
-    "color": "Inox",
+    "capacity": 430,
+    "unit": "L",
+    "color": "Noir / Inox",
     "brand": "White Whale",
-    "description": "",
+    "description": "Réfrigérateur double porte White Whale WR-4385 HB de 430 L avec congélateur supérieur, technologie No Frost et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 71 × 69 × 178 cm. Options du catalogue : Twist Ice Maker, distributeur d’eau, porte en verre et compresseur Inverter.",
     "image": "assets/img/catalogue/white-whale/photo-30.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-30.webp",
       "assets/img/catalogue/white-whale/photo-29.webp"
     ],
     "imageAlts": [
-      "White Whale — Inox — fermé",
-      "White Whale — Inox — ouvert"
+      "White Whale WR-4385 HB — Inox — fermé",
+      "White Whale WR-4385 HB — Inox — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 5,
     "note": "",
-    "pendingCatalogue": true,
-    "subcategory": "",
-    "capacityLabel": ""
+    "pendingCatalogue": false,
+    "subcategory": "no-frost",
+    "capacityLabel": "430 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "No Frost",
+      "Affichage digital",
+      "Éclairage LED",
+      "Multi-Airflow",
+      "Clayettes en verre trempé",
+      "Porte réversible",
+      "Roulettes"
+    ],
+    "optionalFeatures": [
+      "Twist Ice Maker",
+      "Distributeur d’eau",
+      "Porte en verre",
+      "Compresseur Inverter"
+    ],
+    "cooling": "no-frost"
   },
   {
     "id": "white-whale-refrigerateur-distributeur-eau",
-    "model": "White Whale — réfrigérateur double porte avec distributeur d’eau",
-    "name": "Réfrigérateur double porte avec distributeur d’eau White Whale",
-    "type": "Réfrigérateur double porte avec distributeur d’eau",
+    "model": "White Whale WR-5395-HSSX",
+    "name": "Réfrigérateur double porte No Frost avec distributeur d’eau White Whale WR-5395-HSSX",
+    "type": "Réfrigérateur double porte No Frost avec distributeur d’eau",
     "category": "refrigeration",
-    "capacity": 0,
-    "unit": "",
+    "capacity": 540,
+    "unit": "L",
     "color": "Noir / Inox",
     "brand": "White Whale",
-    "description": "",
+    "description": "Réfrigérateur double porte White Whale WR-5395-HSSX de 540 L avec congélateur supérieur, technologie No Frost, distributeur d’eau, compresseur Inverter et affichage digital. Éclairage intérieur LED, circulation Multi-Airflow, clayettes en verre trempé, porte réversible et roulettes. Dimensions (L × P × H) : 80 × 72 × 184 cm. Porte en verre et Twist Ice Maker proposés en option.",
     "image": "assets/img/catalogue/white-whale/photo-25.webp",
     "images": [
       "assets/img/catalogue/white-whale/photo-25.webp",
@@ -673,14 +737,31 @@
       "assets/img/catalogue/white-whale/photo-28.webp"
     ],
     "imageAlts": [
-      "White Whale — Noir — fermé",
-      "White Whale — Inox — fermé",
-      "White Whale — Inox — ouvert"
+      "White Whale WR-5395-HSSX — Noir — fermé",
+      "White Whale WR-5395-HSSX — Inox — fermé",
+      "White Whale WR-5395-HSSX — Inox — ouvert"
     ],
-    "sourcePage": null,
+    "sourcePage": 6,
     "note": "",
-    "pendingCatalogue": true,
-    "subcategory": "",
-    "capacityLabel": ""
+    "pendingCatalogue": false,
+    "subcategory": "no-frost",
+    "capacityLabel": "540 L",
+    "sourceDocument": "White Whale Catalouge_261125_153519.pdf",
+    "features": [
+      "No Frost",
+      "Distributeur d’eau",
+      "Compresseur Inverter",
+      "Affichage digital",
+      "Éclairage LED",
+      "Multi-Airflow",
+      "Clayettes en verre trempé",
+      "Porte réversible",
+      "Roulettes"
+    ],
+    "optionalFeatures": [
+      "Porte en verre",
+      "Twist Ice Maker"
+    ],
+    "cooling": "no-frost"
   }
 ]
