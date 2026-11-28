@@ -2,7 +2,7 @@ from pathlib import Path
 import json,html,hashlib
 R=Path('.'); products=json.loads((R/'assets/data/products.json').read_text(encoding='utf-8'))
 e=html.escape
-categories=[('lavage','Lave-linge','Du petit format aux grandes capacités.','fa-shirt'),('refrigeration','Réfrigérateurs','Le froid au quotidien, dans tous les formats.','fa-temperature-low'),('mini-bar','Mini-Bar','Le froid en format compact.','fa-cube'),('congelation','Congélateurs','Des réserves bien conservées.','fa-snowflake'),('eau','Fontaines à eau','Eau chaude, froide ou tempérée.','fa-droplet'),('air','Rafraîchisseurs d’air','Plus de confort dans chaque pièce.','fa-wind')]
+categories=[('refrigeration', 'Réfrigérateurs', 'Le froid au quotidien, dans tous les formats.', 'fa-temperature-low'), ('mini-bar', 'Mini-Bar', 'Le froid en format compact.', 'fa-cube'), ('congelation', 'Congélateurs', 'Des réserves bien conservées.', 'fa-snowflake'), ('lavage', 'Lave-linge', 'Du petit format aux grandes capacités.', 'fa-shirt'), ('eau', 'Fontaines à eau', 'Eau chaude, froide ou tempérée.', 'fa-droplet'), ('air', 'Rafraîchisseurs d’air', 'Plus de confort dans chaque pièce.', 'fa-wind')]
 for p in products:
  p['subcategory']=(('top' if p['type']=='Lave-linge top' else 'semi-automatique') if p['category']=='lavage' else p.get('cooling','') if p['category']=='refrigeration' else '')
  p['capacityLabel']=(f"{p['capacity']} {p['unit']}" + (' nets' if p['category']=='refrigeration' and p['brand']!='White Whale' else '')) if p['capacity'] else ''
